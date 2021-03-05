@@ -1,0 +1,2080 @@
+[
+    {
+        "cost": 4325,
+        "price": 0,
+        "BV": 80.5,
+        "customer": {
+            "客戶開發": {
+                "delivery_date": "",
+                "price": 0,
+                "cost": 2555,
+                "products": [
+                    {
+                        "product_name": "每日精選",
+                        "amount": 1
+                    },
+                    {
+                        "product_name": "酵素隨身包",
+                        "amount": 1
+                    }
+                ]
+            },
+            "艾利森": {
+                "delivery_date": "",
+                "price": 0,
+                "cost": 1770,
+                "products": [
+                    {
+                        "product_name": "礦妍粉餅",
+                        "amount": 1,
+                        "detail": "淺膚色"
+                    },
+                    {
+                        "product_name": "香草雪克",
+                        "amount": 1
+                    }
+                ]
+            }
+        },
+        "date": "2019-10-28",
+        "done": true
+    },
+    {
+        "cost": 4212,
+        "price": 5380,
+        "BV": 82.0,
+        "customer": {
+            "昭玲媽媽": {
+                "delivery_date": "2019-11-18",
+                "price": 5380,
+                "cost": 3855,
+                "products": [
+                    {
+                        "product_name": "益生菌",
+                        "amount": 1
+                    },
+                    {
+                        "product_name": "甘菊洗髮精",
+                        "amount": 1
+                    },
+                    {
+                        "product_name": "若美芙緊緻眼霜",
+                        "amount": 1
+                    },
+                    {
+                        "product_name": "MDI複方緊緻潤膚霜",
+                        "amount": 1
+                    }
+                ]
+            },
+            "客戶開發": {
+                "delivery_date": "",
+                "price": 0,
+                "cost": 357,
+                "products": [
+                    {
+                        "product_name": "產品目錄",
+                        "amount": 1
+                    }
+                ]
+            }
+        },
+        "date": "2019-11-18",
+        "done": true
+    },
+    {
+        "cost": 4395,
+        "price": 2190,
+        "BV": 90.0,
+        "customer": {
+            "艾利森": {
+                "delivery_date": "",
+                "price": 0,
+                "cost": 2175,
+                "products": [
+                    {
+                        "product_name": "絲晶深層潔膚乳",
+                        "amount": 1
+                    },
+                    {
+                        "product_name": "蝦紅素(膠囊)",
+                        "amount": 1
+                    },
+                    {
+                        "product_name": "絲柔潤膚乳",
+                        "amount": 1
+                    }
+                ]
+            },
+            "蛋爸": {
+                "delivery_date": "2019-12-29",
+                "price": 695,
+                "cost": 495,
+                "products": [
+                    {
+                        "product_name": "Fixx健髮",
+                        "amount": 1
+                    }
+                ]
+            },
+            "俐吟姊姊": {
+                "delivery_date": "2019-12-15",
+                "price": 1495,
+                "cost": 1065,
+                "products": [
+                    {
+                        "product_name": "適明配方",
+                        "amount": 1
+                    }
+                ]
+            },
+            "客戶開發": {
+                "delivery_date": "",
+                "price": 0,
+                "cost": 880,
+                "products": [
+                    {
+                        "product_name": "兒童益生菌",
+                        "amount": 1
+                    }
+                ]
+            }
+        },
+        "date": "2019-12-08",
+        "done": true
+    },
+    {
+        "cost": 4795,
+        "price": 5850,
+        "BV": 60.0,
+        "customer": {
+            "阿嬤": {
+                "delivery_date": "2019-12-25",
+                "price": 5265,
+                "cost": 3760,
+                "products": [
+                    {
+                        "product_name": "香草雪克",
+                        "amount": 3
+                    },
+                    {
+                        "product_name": "兒童益生菌",
+                        "amount": 1
+                    }
+                ]
+            },
+            "子儀姊姊": {
+                "delivery_date": "2019-12-31",
+                "price": 585,
+                "cost": 430,
+                "products": [
+                    {
+                        "product_name": "甘菊洗髮精",
+                        "amount": 1
+                    }
+                ]
+            },
+            "艾利森": {
+                "delivery_date": "",
+                "price": 0,
+                "cost": 605,
+                "products": [
+                    {
+                        "product_name": "絲晶鎖水保濕乳",
+                        "amount": 1
+                    }
+                ]
+            }
+        },
+        "date": "2019-12-23",
+        "done": true
+    },
+    {
+        "cost": 4425,
+        "price": 250,
+        "BV": 88.0,
+        "customer": {
+            "客戶開發": {
+                "delivery_date": "",
+                "price": 0,
+                "cost": 3415,
+                "products": [
+                    {
+                        "product_name": "舒寧配方",
+                        "amount": 1
+                    },
+                    {
+                        "product_name": "瘦瘦茶",
+                        "amount": 1
+                    },
+                    {
+                        "product_name": "若美芙護手霜",
+                        "amount": 1
+                    }
+                ]
+            },
+            "艾利森": {
+                "delivery_date": "",
+                "price": 0,
+                "cost": 800,
+                "products": [
+                    {
+                        "product_name": "鈣",
+                        "amount": 1
+                    },
+                    {
+                        "product_name": "牙膏",
+                        "amount": 1
+                    }
+                ]
+            },
+            "Belle": {
+                "delivery_date": "2020-01-16",
+                "price": 250,
+                "cost": 210,
+                "products": [
+                    {
+                        "product_name": "莫蒂膚卸妝棉",
+                        "amount": 1
+                    }
+                ]
+            }
+        },
+        "date": "2020-01-04",
+        "done": true
+    },
+    {
+        "cost": 4432,
+        "price": 0,
+        "BV": 73.5,
+        "customer": {
+            "艾利森": {
+                "delivery_date": "",
+                "price": 0,
+                "cost": 4075,
+                "products": [
+                    {
+                        "product_name": "適明配方",
+                        "amount": 1
+                    },
+                    {
+                        "product_name": "益生菌",
+                        "amount": 1
+                    },
+                    {
+                        "product_name": "香草雪克",
+                        "amount": 1
+                    },
+                    {
+                        "product_name": "添唯秀眼霜",
+                        "amount": 1
+                    }
+                ]
+            },
+            "客戶開發": {
+                "delivery_date": "",
+                "price": 0,
+                "cost": 357,
+                "products": [
+                    {
+                        "product_name": "產品目錄",
+                        "amount": 1
+                    }
+                ]
+            }
+        },
+        "date": "2020-01-13",
+        "done": true
+    },
+    {
+        "cost": 3619,
+        "price": 1960,
+        "BV": 65.5,
+        "customer": {
+            "媽媽": {
+                "delivery_date": "2020-02-08",
+                "price": 1960,
+                "cost": 1960,
+                "products": [
+                    {
+                        "product_name": "莓果配方",
+                        "amount": 1
+                    }
+                ]
+            },
+            "艾利森": {
+                "delivery_date": "",
+                "price": 0,
+                "cost": 960,
+                "products": [
+                    {
+                        "product_name": "巧克力雪克",
+                        "amount": 1
+                    }
+                ]
+            },
+            "客戶開發": {
+                "delivery_date": "",
+                "price": 0,
+                "cost": 690,
+                "products": [
+                    {
+                        "product_name": "酵素隨身包",
+                        "amount": 1
+                    }
+                ]
+            }
+        },
+        "date": "2020-01-28",
+        "done": true
+    },
+    {
+        "cost": 4660,
+        "price": 5195,
+        "BV": 76.0,
+        "customer": {
+            "櫻花阿姨": {
+                "delivery_date": "2020-02-15",
+                "price": 890,
+                "cost": 890,
+                "products": [
+                    {
+                        "product_name": "牙膏",
+                        "amount": 2
+                    },
+                    {
+                        "product_name": "刮鬍膏",
+                        "amount": 2
+                    }
+                ]
+            },
+            "阿嬤": {
+                "delivery_date": "2020-02-16",
+                "price": 2000,
+                "cost": 880,
+                "products": [
+                    {
+                        "product_name": "兒童益生菌",
+                        "amount": 1
+                    }
+                ]
+            },
+            "子儀姊姊": {
+                "delivery_date": "2020-02-10",
+                "price": 1345,
+                "cost": 970,
+                "products": [
+                    {
+                        "product_name": "甘菊洗髮精",
+                        "amount": 1
+                    },
+                    {
+                        "product_name": "Fixx堅果油潤髮乳",
+                        "amount": 1
+                    }
+                ]
+            },
+            "媽媽": {
+                "delivery_date": "2020-02-08",
+                "price": 960,
+                "cost": 960,
+                "products": [
+                    {
+                        "product_name": "益生菌",
+                        "amount": 1
+                    }
+                ]
+            },
+            "艾利森": {
+                "delivery_date": "",
+                "price": 0,
+                "cost": 960,
+                "products": [
+                    {
+                        "product_name": "香草雪克",
+                        "amount": 1
+                    }
+                ]
+            }
+        },
+        "date": "2020-02-08",
+        "done": true
+    },
+    {
+        "cost": 4347,
+        "price": 2690,
+        "BV": 84.0,
+        "customer": {
+            "斐琳阿姨": {
+                "delivery_date": "2020-02-22",
+                "price": 2690,
+                "cost": 1920,
+                "products": [
+                    {
+                        "product_name": "益生菌",
+                        "amount": 2
+                    }
+                ]
+            },
+            "艾利森": {
+                "delivery_date": "",
+                "price": 0,
+                "cost": 2070,
+                "products": [
+                    {
+                        "product_name": "原味蘆薈汁",
+                        "amount": 1
+                    },
+                    {
+                        "product_name": "纖維粉",
+                        "amount": 1
+                    }
+                ]
+            },
+            "客戶開發": {
+                "delivery_date": "",
+                "price": 0,
+                "cost": 357,
+                "products": [
+                    {
+                        "product_name": "產品目錄",
+                        "amount": 1
+                    }
+                ]
+            }
+        },
+        "date": "2020-02-21",
+        "done": true
+    },
+    {
+        "cost": 6095,
+        "price": 6080,
+        "BV": 134.5,
+        "customer": {
+            "櫻花阿姨": {
+                "delivery_date": "2020-03-05",
+                "price": 4400,
+                "cost": 3140,
+                "products": [
+                    {
+                        "product_name": "淡斑美白組",
+                        "amount": 1
+                    }
+                ]
+            },
+            "婆婆": {
+                "delivery_date": "2020-03-05",
+                "price": 870,
+                "cost": 870,
+                "products": [
+                    {
+                        "product_name": "洗手乳",
+                        "amount": 3
+                    }
+                ]
+            },
+            "媽媽": {
+                "delivery_date": "2020-03-20",
+                "price": 810,
+                "cost": 810,
+                "products": [
+                    {
+                        "product_name": "礦妍粉餅",
+                        "amount": 1,
+                        "detail": "淺膚色"
+                    }
+                ]
+            },
+            "艾利森": {
+                "delivery_date": "",
+                "price": 0,
+                "cost": 1855,
+                "products": [
+                    {
+                        "product_name": "粉底液",
+                        "amount": 1,
+                        "detail": "乳米色"
+                    },
+                    {
+                        "product_name": "莫蒂膚卸妝棉",
+                        "amount": 1
+                    },
+                    {
+                        "product_name": "礦顏防水眉筆",
+                        "amount": 1
+                    },
+                    {
+                        "product_name": "滋潤洗髮乳",
+                        "amount": 1
+                    }
+                ]
+            }
+        },
+        "date": "2020-03-01",
+        "done": true
+    },
+    {
+        "cost": 4365,
+        "price": 4355,
+        "BV": 80.0,
+        "customer": {
+            "艾利森": {
+                "delivery_date": "",
+                "price": 0,
+                "cost": 960,
+                "products": [
+                    {
+                        "product_name": "香草雪克",
+                        "amount": 1
+                    }
+                ]
+            },
+            "媽媽": {
+                "delivery_date": "2020-03-31",
+                "price": 960,
+                "cost": 960,
+                "products": [
+                    {
+                        "product_name": "益生菌",
+                        "amount": 1
+                    }
+                ]
+            },
+            "阿嬤": {
+                "delivery_date": "2020-03-27",
+                "price": 1200,
+                "cost": 880,
+                "products": [
+                    {
+                        "product_name": "兒童益生菌",
+                        "amount": 1
+                    }
+                ]
+            },
+            "美玲阿姨": {
+                "delivery_date": "2020-03-26",
+                "price": 2195,
+                "cost": 1565,
+                "products": [
+                    {
+                        "product_name": "舒寧配方",
+                        "amount": 1
+                    }
+                ]
+            }
+        },
+        "date": "2020-03-23",
+        "done": true
+    },
+    {
+        "cost": 5465,
+        "price": 3040,
+        "BV": 101.5,
+        "customer": {
+            "艾利森": {
+                "delivery_date": "",
+                "price": 0,
+                "cost": 2425,
+                "products": [
+                    {
+                        "product_name": "香草雪克",
+                        "amount": 1
+                    },
+                    {
+                        "product_name": "保濕蘆薈霜",
+                        "amount": 1
+                    },
+                    {
+                        "product_name": "甘菊洗髮精",
+                        "amount": 1
+                    },
+                    {
+                        "product_name": "柔雅頭皮去角質",
+                        "amount": 1
+                    }
+                ]
+            },
+            "媽媽": {
+                "delivery_date": "2020-04-18",
+                "price": 3040,
+                "cost": 3040,
+                "products": [
+                    {
+                        "product_name": "鈣",
+                        "amount": 1
+                    },
+                    {
+                        "product_name": "MDI複方緊緻潤膚霜",
+                        "amount": 1
+                    },
+                    {
+                        "product_name": "添唯秀眼霜",
+                        "amount": 1
+                    }
+                ]
+            }
+        },
+        "date": "2020-04-06",
+        "done": true
+    },
+    {
+        "cost": 3950,
+        "price": 1050,
+        "BV": 80.0,
+        "customer": {
+            "媽媽": {
+                "delivery_date": "2020-04-18",
+                "price": 290,
+                "cost": 290,
+                "products": [
+                    {
+                        "product_name": "洗碗精",
+                        "amount": 1
+                    }
+                ]
+            },
+            "櫻花阿姨": {
+                "delivery_date": "2020-04-18",
+                "price": 380,
+                "cost": 290,
+                "products": [
+                    {
+                        "product_name": "洗碗精",
+                        "amount": 1
+                    }
+                ]
+            },
+            "椒如阿姨": {
+                "delivery_date": "2020-04-18",
+                "price": 380,
+                "cost": 290,
+                "products": [
+                    {
+                        "product_name": "洗碗精",
+                        "amount": 1
+                    }
+                ]
+            },
+            "艾利森": {
+                "delivery_date": "",
+                "price": 0,
+                "cost": 3660,
+                "products": [
+                    {
+                        "product_name": "香草雪克",
+                        "amount": 1
+                    },
+                    {
+                        "product_name": "B群",
+                        "amount": 1
+                    },
+                    {
+                        "product_name": "甘菊洗髮精",
+                        "amount": 1
+                    },
+                    {
+                        "product_name": "活采新肌洗面乳",
+                        "amount": 1
+                    }
+                ]
+            }
+        },
+        "date": "2020-04-15",
+        "done": true
+    },
+    {
+        "cost": 4690,
+        "price": 4580,
+        "BV": 85.0,
+        "customer": {
+            "美玲阿姨": {
+                "delivery_date": "2020-05-01",
+                "price": 2195,
+                "cost": 1565,
+                "products": [
+                    {
+                        "product_name": "舒寧配方",
+                        "amount": 1
+                    }
+                ]
+            },
+            "媽媽": {
+                "delivery_date": "2020-05-26",
+                "price": 1285,
+                "cost": 1285,
+                "products": [
+                    {
+                        "product_name": "洗衣精",
+                        "amount": 1
+                    },
+                    {
+                        "product_name": "益生菌",
+                        "amount": 1
+                    }
+                ]
+            },
+            "阿嬤": {
+                "delivery_date": "2020-05-31",
+                "price": 1100,
+                "cost": 880,
+                "products": [
+                    {
+                        "product_name": "兒童益生菌",
+                        "amount": 1
+                    }
+                ]
+            },
+            "艾利森": {
+                "delivery_date": "",
+                "price": 0,
+                "cost": 960,
+                "products": [
+                    {
+                        "product_name": "香草雪克",
+                        "amount": 1
+                    }
+                ]
+            }
+        },
+        "date": "2020-04-29",
+        "done": true
+    },
+    {
+        "cost": 3205,
+        "price": 3110,
+        "BV": 74.5,
+        "customer": {
+            "艾利森": {
+                "delivery_date": "",
+                "price": 0,
+                "cost": 1920,
+                "products": [
+                    {
+                        "product_name": "香草雪克",
+                        "amount": 1
+                    },
+                    {
+                        "product_name": "若美芙洗面乳",
+                        "amount": 1
+                    }
+                ]
+            },
+            "櫻花阿姨": {
+                "delivery_date": "2020-05-09",
+                "price": 3110,
+                "cost": 2245,
+                "products": [
+                    {
+                        "product_name": "若美芙洗面乳",
+                        "amount": 2
+                    },
+                    {
+                        "product_name": "洗衣精",
+                        "amount": 1
+                    }
+                ]
+            }
+        },
+        "date": "2020-05-06",
+        "done": true
+    },
+    {
+        "cost": 4352,
+        "price": 3425,
+        "BV": 98.0,
+        "customer": {
+            "斐琳阿姨": {
+                "delivery_date": "2020-05-16",
+                "price": 1300,
+                "cost": 960,
+                "products": [
+                    {
+                        "product_name": "益生菌",
+                        "amount": 1
+                    }
+                ]
+            },
+            "媽媽": {
+                "delivery_date": "2020-05-31",
+                "price": 1265,
+                "cost": 1265,
+                "products": [
+                    {
+                        "product_name": "益生菌",
+                        "amount": 1
+                    },
+                    {
+                        "product_name": "防輻射貼片",
+                        "amount": 1
+                    }
+                ]
+            },
+            "艾利森": {
+                "delivery_date": "",
+                "price": 0,
+                "cost": 1770,
+                "products": [
+                    {
+                        "product_name": "黑種草籽油",
+                        "amount": 1
+                    }
+                ]
+            },
+            "Rebecca阿姨": {
+                "delivery_date": "2020-05-26",
+                "price": 860,
+                "cost": 610,
+                "products": [
+                    {
+                        "product_name": "防輻射貼片",
+                        "amount": 2
+                    }
+                ]
+            },
+            "客戶開發": {
+                "delivery_date": "",
+                "price": 0,
+                "cost": 357,
+                "products": [
+                    {
+                        "product_name": "產品目錄",
+                        "amount": 1
+                    }
+                ]
+            }
+        },
+        "date": "2020-05-20",
+        "done": true
+    },
+    {
+        "cost": 3840,
+        "price": 5044,
+        "BV": 80.0,
+        "customer": {
+            "婆婆": {
+                "delivery_date": "2020-05-26",
+                "price": 5044,
+                "cost": 3840,
+                "products": [
+                    {
+                        "product_name": "益生菌",
+                        "amount": 4
+                    }
+                ]
+            }
+        },
+        "date": "2020-05-26",
+        "done": true
+    },
+    {
+        "cost": 4110,
+        "price": 2195,
+        "BV": 86.0,
+        "customer": {
+            "艾利森": {
+                "delivery_date": "",
+                "price": 0,
+                "cost": 2545,
+                "products": [
+                    {
+                        "product_name": "益生菌",
+                        "amount": 1
+                    },
+                    {
+                        "product_name": "礦顏防水眉筆",
+                        "amount": 1
+                    },
+                    {
+                        "product_name": "礦妍粉餅",
+                        "amount": 1,
+                        "detail": "淺膚色"
+                    },
+                    {
+                        "product_name": "防輻射貼片",
+                        "amount": 1
+                    }
+                ]
+            },
+            "美玲阿姨": {
+                "delivery_date": "2020-05-30",
+                "price": 2195,
+                "cost": 1565,
+                "products": [
+                    {
+                        "product_name": "舒寧配方",
+                        "amount": 1
+                    }
+                ]
+            }
+        },
+        "date": "2020-05-26",
+        "done": true
+    },
+    {
+        "cost": 5030,
+        "price": 6200,
+        "BV": 104.0,
+        "customer": {
+            "爸爸": {
+                "delivery_date": "2020-06-07",
+                "price": 6200,
+                "cost": 5030,
+                "products": [
+                    {
+                        "product_name": "固可寧",
+                        "amount": 2
+                    },
+                    {
+                        "product_name": "益生菌",
+                        "amount": 1
+                    }
+                ]
+            }
+        },
+        "date": "2020-05-27",
+        "done": true
+    },
+    {
+        "cost": 4730,
+        "price": 4440,
+        "BV": 78.5,
+        "customer": {
+            "昭玲媽媽": {
+                "delivery_date": "2020-06-05",
+                "price": 1940,
+                "cost": 1380,
+                "products": [
+                    {
+                        "product_name": "酵素隨身包",
+                        "amount": 2
+                    }
+                ]
+            },
+            "艾利森": {
+                "delivery_date": "",
+                "price": 0,
+                "cost": 1510,
+                "products": [
+                    {
+                        "product_name": "莫蒂膚卸妝棉",
+                        "amount": 2
+                    },
+                    {
+                        "product_name": "絲晶果酸乳液",
+                        "amount": 1
+                    }
+                ]
+            },
+            "阿嬤": {
+                "delivery_date": "2020-07-11",
+                "price": 2500,
+                "cost": 1840,
+                "products": [
+                    {
+                        "product_name": "兒童益生菌",
+                        "amount": 1
+                    },
+                    {
+                        "product_name": "香草雪克",
+                        "amount": 1
+                    }
+                ]
+            }
+        },
+        "date": "2020-06-01",
+        "done": true
+    },
+    {
+        "cost": 3265,
+        "price": 3070,
+        "BV": 76.5,
+        "customer": {
+            "艾利森": {
+                "delivery_date": "",
+                "price": 0,
+                "cost": 1945,
+                "products": [
+                    {
+                        "product_name": "益生菌",
+                        "amount": 1
+                    },
+                    {
+                        "product_name": "酵素隨身包",
+                        "amount": 1
+                    },
+                    {
+                        "product_name": "精選綠茶",
+                        "amount": 1
+                    }
+                ]
+            },
+            "玉棻阿姨": {
+                "delivery_date": "2020-07-04",
+                "price": 2230,
+                "cost": 1645,
+                "products": [
+                    {
+                        "product_name": "甘菊洗髮精",
+                        "amount": 1
+                    },
+                    {
+                        "product_name": "Fixx護色洗髮精",
+                        "amount": 1
+                    },
+                    {
+                        "product_name": "洗衣精",
+                        "amount": 2
+                    }
+                ]
+            },
+            "櫻花阿姨": {
+                "delivery_date": "2020-07-04",
+                "price": 840,
+                "cost": 650,
+                "products": [
+                    {
+                        "product_name": "洗衣精",
+                        "amount": 2
+                    }
+                ]
+            }
+        },
+        "date": "2020-06-23",
+        "done": true
+    },
+    {
+        "cost": 4475,
+        "price": 6305,
+        "BV": 114.5,
+        "customer": {
+            "美玲阿姨": {
+                "delivery_date": "2020-07-08",
+                "price": 2195,
+                "cost": 1565,
+                "products": [
+                    {
+                        "product_name": "舒寧配方",
+                        "amount": 1
+                    }
+                ]
+            },
+            "昭玲媽媽": {
+                "delivery_date": "2020-07-10",
+                "price": 2910,
+                "cost": 2070,
+                "products": [
+                    {
+                        "product_name": "酵素隨身包",
+                        "amount": 3
+                    }
+                ]
+            },
+            "端之": {
+                "delivery_date": "2020-07-10",
+                "price": 1200,
+                "cost": 960,
+                "products": [
+                    {
+                        "product_name": "益生菌",
+                        "amount": 1
+                    }
+                ]
+            },
+            "艾利森": {
+                "delivery_date": "",
+                "price": 0,
+                "cost": 1260,
+                "products": [
+                    {
+                        "product_name": "紅花油",
+                        "amount": 1
+                    }
+                ]
+            }
+        },
+        "date": "2020-07-06",
+        "done": true
+    },
+    {
+        "cost": 4115,
+        "price": 1800,
+        "BV": 75.0,
+        "customer": {
+            "端之": {
+                "delivery_date": "2020-07-10",
+                "price": 1800,
+                "cost": 1320,
+                "products": [
+                    {
+                        "product_name": "B群",
+                        "amount": 1
+                    }
+                ]
+            },
+            "艾利森": {
+                "delivery_date": "",
+                "price": 0,
+                "cost": 2795,
+                "products": [
+                    {
+                        "product_name": "防曬乳",
+                        "amount": 1
+                    },
+                    {
+                        "product_name": "粉底液",
+                        "amount": 1,
+                        "detail": "乳米色"
+                    },
+                    {
+                        "product_name": "香草雪克",
+                        "amount": 1
+                    }
+                ]
+            }
+        },
+        "date": "2020-07-13",
+        "done": true
+    },
+    {
+        "cost": 4665,
+        "price": 2955,
+        "BV": 91.0,
+        "customer": {
+            "艾利森": {
+                "delivery_date": "",
+                "price": 0,
+                "cost": 2810,
+                "products": [
+                    {
+                        "product_name": "香草雪克",
+                        "amount": 1
+                    },
+                    {
+                        "product_name": "魚油",
+                        "amount": 1
+                    },
+                    {
+                        "product_name": "滋潤洗髮乳",
+                        "amount": 1
+                    }
+                ]
+            },
+            "美玲阿姨": {
+                "delivery_date": "2020-08-05",
+                "price": 2195,
+                "cost": 1565,
+                "products": [
+                    {
+                        "product_name": "舒寧配方",
+                        "amount": 1
+                    }
+                ]
+            },
+            "櫻花阿姨": {
+                "delivery_date": "2020-07-31",
+                "price": 760,
+                "cost": 580,
+                "products": [
+                    {
+                        "product_name": "洗碗精",
+                        "amount": 2
+                    }
+                ]
+            }
+        },
+        "date": "2020-07-26",
+        "done": true
+    },
+    {
+        "cost": 3840,
+        "price": 5380,
+        "BV": 80.0,
+        "customer": {
+            "婆婆": {
+                "delivery_date": "2020-07-28",
+                "price": 5380,
+                "cost": 3840,
+                "products": [
+                    {
+                        "product_name": "益生菌",
+                        "amount": 4
+                    }
+                ]
+            }
+        },
+        "date": "2020-07-28",
+        "done": true
+    },
+    {
+        "cost": 4325,
+        "price": 5233,
+        "BV": 111.5,
+        "customer": {
+            "艾利森": {
+                "delivery_date": "",
+                "price": 0,
+                "cost": 1730,
+                "products": [
+                    {
+                        "product_name": "Fixx煥膚霜",
+                        "amount": 1
+                    },
+                    {
+                        "product_name": "莫蒂膚卸妝棉",
+                        "amount": 1
+                    },
+                    {
+                        "product_name": "常青",
+                        "amount": 1
+                    }
+                ]
+            },
+            "媽媽": {
+                "delivery_date": "2020-08-26",
+                "price": 1493,
+                "cost": 1365,
+                "products": [
+                    {
+                        "product_name": "MDI複方緊緻潤膚霜",
+                        "amount": 1
+                    }
+                ]
+            },
+            "爸爸": {
+                "delivery_date": "2020-08-09",
+                "price": 400,
+                "cost": 325,
+                "products": [
+                    {
+                        "product_name": "洗衣精",
+                        "amount": 1
+                    }
+                ]
+            },
+            "昭玲媽媽": {
+                "delivery_date": "2020-08-14",
+                "price": 2910,
+                "cost": 2070,
+                "products": [
+                    {
+                        "product_name": "酵素隨身包",
+                        "amount": 3
+                    }
+                ]
+            },
+            "櫻花阿姨": {
+                "delivery_date": "2020-08-21",
+                "price": 430,
+                "cost": 430,
+                "products": [
+                    {
+                        "product_name": "牙膏",
+                        "amount": 2
+                    }
+                ]
+            }
+        },
+        "date": "2020-08-04",
+        "done": true
+    },
+    {
+        "cost": 4300,
+        "price": 1090,
+        "BV": 88.25,
+        "customer": {
+            "艾利森": {
+                "delivery_date": "",
+                "price": 0,
+                "cost": 3210,
+                "products": [
+                    {
+                        "product_name": "蘆薈膠",
+                        "amount": 1
+                    },
+                    {
+                        "product_name": "酵素",
+                        "amount": 1
+                    },
+                    {
+                        "product_name": "纖維粉",
+                        "amount": 1
+                    },
+                    {
+                        "product_name": "絲晶深層潔膚乳",
+                        "amount": 1
+                    }
+                ]
+            },
+            "媽媽": {
+                "delivery_date": "2020-08-26",
+                "price": 1090,
+                "cost": 1090,
+                "products": [
+                    {
+                        "product_name": "添唯秀眼霜",
+                        "amount": 1
+                    }
+                ]
+            }
+        },
+        "date": "2020-08-17",
+        "done": true
+    },
+    {
+        "cost": 5030,
+        "price": 6000,
+        "BV": 104.0,
+        "customer": {
+            "爸爸": {
+                "delivery_date": "2020-09-05",
+                "price": 6000,
+                "cost": 5030,
+                "products": [
+                    {
+                        "product_name": "固可寧",
+                        "amount": 2
+                    },
+                    {
+                        "product_name": "益生菌",
+                        "amount": 1
+                    }
+                ]
+            }
+        },
+        "date": "2020-08-26",
+        "done": true
+    },
+    {
+        "cost": 5995,
+        "price": 9200,
+        "BV": 166.0,
+        "customer": {
+            "艾利森": {
+                "delivery_date": "",
+                "price": 0,
+                "cost": 2025,
+                "products": [
+                    {
+                        "product_name": "香草雪克",
+                        "amount": 1
+                    },
+                    {
+                        "product_name": "瘦瘦茶",
+                        "amount": 1
+                    }
+                ]
+            },
+            "婆婆": {
+                "delivery_date": "2020-09-22",
+                "price": 5000,
+                "cost": 3840,
+                "products": [
+                    {
+                        "product_name": "益生菌",
+                        "amount": 4
+                    }
+                ]
+            },
+            "爸爸": {
+                "delivery_date": "2020-09-06",
+                "price": 1000,
+                "cost": 865,
+                "products": [
+                    {
+                        "product_name": "常青",
+                        "amount": 1
+                    }
+                ]
+            },
+            "媽媽": {
+                "delivery_date": "2020-10-12",
+                "price": 400,
+                "cost": 325,
+                "products": [
+                    {
+                        "product_name": "洗衣精",
+                        "amount": 1
+                    }
+                ]
+            },
+            "玉棻阿姨": {
+                "delivery_date": "2020-09-21",
+                "price": 420,
+                "cost": 325,
+                "products": [
+                    {
+                        "product_name": "洗衣精",
+                        "amount": 1
+                    }
+                ]
+            },
+            "櫻花阿姨": {
+                "delivery_date": "2020-09-21",
+                "price": 1180,
+                "cost": 905,
+                "products": [
+                    {
+                        "product_name": "洗衣精",
+                        "amount": 1
+                    },
+                    {
+                        "product_name": "洗碗精",
+                        "amount": 2
+                    }
+                ]
+            },
+            "阿嬤": {
+                "delivery_date": "2020-10-12",
+                "price": 1200,
+                "cost": 880,
+                "products": [
+                    {
+                        "product_name": "兒童益生菌",
+                        "amount": 1
+                    }
+                ]
+            }
+        },
+        "date": "2020-09-17",
+        "done": true
+    },
+    {
+        "cost": 5770,
+        "price": 4200,
+        "BV": 83.0,
+        "customer": {
+            "鋼琴陳老師": {
+                "delivery_date": "2020-10-12",
+                "price": 2900,
+                "cost": 2160,
+                "products": [
+                    {
+                        "product_name": "香草雪克",
+                        "amount": 1
+                    },
+                    {
+                        "product_name": "蝦紅素(粉末)",
+                        "amount": 1
+                    }
+                ]
+            },
+            "阿嬤": {
+                "delivery_date": "2020-10-12",
+                "price": 1300,
+                "cost": 960,
+                "products": [
+                    {
+                        "product_name": "香草雪克",
+                        "amount": 1
+                    }
+                ]
+            },
+            "艾利森": {
+                "delivery_date": "",
+                "price": 0,
+                "cost": 2650,
+                "products": [
+                    {
+                        "product_name": "香草雪克",
+                        "amount": 1
+                    },
+                    {
+                        "product_name": "魚油",
+                        "amount": 1
+                    },
+                    {
+                        "product_name": "Ｃ錠",
+                        "amount": 1
+                    }
+                ]
+            }
+        },
+        "date": "2020-10-04",
+        "done": true
+    },
+    {
+        "cost": 11410,
+        "price": 12750,
+        "BV": 237.5,
+        "customer": {
+            "艾利森": {
+                "delivery_date": "",
+                "price": 0,
+                "cost": 1320,
+                "products": [
+                    {
+                        "product_name": "B群",
+                        "amount": 1
+                    }
+                ]
+            },
+            "媽媽": {
+                "delivery_date": "2020-10-31",
+                "price": 2100,
+                "cost": 2060,
+                "products": [
+                    {
+                        "product_name": "蝦紅素(膠囊)",
+                        "amount": 1
+                    },
+                    {
+                        "product_name": "維思康",
+                        "amount": 1
+                    }
+                ]
+            },
+            "斐琳阿姨": {
+                "delivery_date": "2020-10-22",
+                "price": 3450,
+                "cost": 2740,
+                "products": [
+                    {
+                        "product_name": "魚油",
+                        "amount": 1
+                    },
+                    {
+                        "product_name": "B群",
+                        "amount": 1
+                    }
+                ]
+            },
+            "櫻花阿姨": {
+                "delivery_date": "2020-10-22",
+                "price": 6500,
+                "cost": 4685,
+                "products": [
+                    {
+                        "product_name": "纖維粉",
+                        "amount": 1
+                    },
+                    {
+                        "product_name": "魚油",
+                        "amount": 1
+                    },
+                    {
+                        "product_name": "B群",
+                        "amount": 1
+                    },
+                    {
+                        "product_name": "鈣",
+                        "amount": 1
+                    }
+                ]
+            },
+            "漢克": {
+                "delivery_date": "2020-10-27",
+                "price": 700,
+                "cost": 605,
+                "products": [
+                    {
+                        "product_name": "絲晶鎖水保濕乳",
+                        "amount": 1
+                    }
+                ]
+            }
+        },
+        "date": "2020-10-18",
+        "done": true
+    },
+    {
+        "cost": 4245,
+        "price": 2000,
+        "BV": 71.75,
+        "customer": {
+            "爸爸": {
+                "delivery_date": "2020-11-13",
+                "price": 2000,
+                "cost": 1730,
+                "products": [
+                    {
+                        "product_name": "常青",
+                        "amount": 2
+                    }
+                ]
+            },
+            "艾利森": {
+                "delivery_date": "",
+                "price": 0,
+                "cost": 2515,
+                "products": [
+                    {
+                        "product_name": "香草雪克",
+                        "amount": 1
+                    },
+                    {
+                        "product_name": "絲晶緊緻面膜",
+                        "amount": 1
+                    },
+                    {
+                        "product_name": "維他命E唇膏",
+                        "amount": 1
+                    },
+                    {
+                        "product_name": "礦妍唇彩",
+                        "amount": 1,
+                        "detail": "清純玉女"
+                    }
+                ]
+            }
+        },
+        "date": "2020-11-01",
+        "done": true
+    },
+    {
+        "cost": 4470,
+        "price": 2910,
+        "BV": 88.25,
+        "customer": {
+            "艾利森": {
+                "delivery_date": "",
+                "price": 0,
+                "cost": 2400,
+                "products": [
+                    {
+                        "product_name": "OPC",
+                        "amount": 1
+                    },
+                    {
+                        "product_name": "絲晶深層潔膚乳",
+                        "amount": 1
+                    }
+                ]
+            },
+            "昭玲媽媽": {
+                "delivery_date": "2020-11-14",
+                "price": 2910,
+                "cost": 2070,
+                "products": [
+                    {
+                        "product_name": "酵素隨身包",
+                        "amount": 3
+                    }
+                ]
+            }
+        },
+        "date": "2020-11-09",
+        "done": true
+    },
+    {
+        "cost": 4225,
+        "price": 2750,
+        "BV": 76.0,
+        "customer": {
+            "含爸": {
+                "delivery_date": "2020-11-25",
+                "price": 450,
+                "cost": 325,
+                "products": [
+                    {
+                        "product_name": "洗衣精",
+                        "amount": 1
+                    }
+                ]
+            },
+            "含媽": {
+                "delivery_date": "2020-11-25",
+                "price": 450,
+                "cost": 325,
+                "products": [
+                    {
+                        "product_name": "洗衣精",
+                        "amount": 1
+                    }
+                ]
+            },
+            "媽媽": {
+                "delivery_date": "2020-11-31",
+                "price": 1850,
+                "cost": 1850,
+                "products": [
+                    {
+                        "product_name": "魚油",
+                        "amount": 1
+                    },
+                    {
+                        "product_name": "滋潤洗髮乳",
+                        "amount": 1
+                    }
+                ]
+            },
+            "艾利森": {
+                "delivery_date": "",
+                "price": 0,
+                "cost": 2050,
+                "products": [
+                    {
+                        "product_name": "香草雪克",
+                        "amount": 1
+                    },
+                    {
+                        "product_name": "粉底液",
+                        "amount": 1,
+                        "detail": "乳米色"
+                    },
+                    {
+                        "product_name": "打亮海綿",
+                        "amount": 1
+                    }
+                ]
+            }
+        },
+        "date": "2020-11-17",
+        "done": true
+    },
+    {
+        "cost": 4510,
+        "price": 2465,
+        "BV": 88.5,
+        "customer": {
+            "艾利森": {
+                "delivery_date": "",
+                "price": 0,
+                "cost": 2325,
+                "products": [
+                    {
+                        "product_name": "絲晶鎖水保濕乳",
+                        "amount": 1
+                    },
+                    {
+                        "product_name": "養生茶",
+                        "amount": 1
+                    },
+                    {
+                        "product_name": "纖維粉",
+                        "amount": 1
+                    }
+                ]
+            },
+            "媽媽": {
+                "delivery_date": "2020-12-31",
+                "price": 1120,
+                "cost": 1120,
+                "products": [
+                    {
+                        "product_name": "蝦紅素(膠囊)",
+                        "amount": 1
+                    }
+                ]
+            },
+            "魏媽媽": {
+                "delivery_date": "2020-11-31",
+                "price": 1345,
+                "cost": 1065,
+                "products": [
+                    {
+                        "product_name": "瘦瘦茶",
+                        "amount": 1
+                    }
+                ]
+            }
+        },
+        "date": "2020-11-29",
+        "done": true
+    },
+    {
+        "cost": 5215,
+        "price": 4955,
+        "BV": 101.5,
+        "customer": {
+            "客戶開發": {
+                "delivery_date": "",
+                "price": 0,
+                "cost": 920,
+                "products": [
+                    {
+                        "product_name": "膠原蛋白",
+                        "amount": 1
+                    }
+                ]
+            },
+            "媽媽": {
+                "delivery_date": "2020-12-31",
+                "price": 2455,
+                "cost": 2455,
+                "products": [
+                    {
+                        "product_name": "MDI複方緊緻潤膚霜",
+                        "amount": 1
+                    },
+                    {
+                        "product_name": "添唯秀眼霜",
+                        "amount": 1
+                    }
+                ]
+            },
+            "阿嬤": {
+                "delivery_date": "2020-12-12",
+                "price": 2500,
+                "cost": 1840,
+                "products": [
+                    {
+                        "product_name": "兒童益生菌",
+                        "amount": 1
+                    },
+                    {
+                        "product_name": "香草雪克",
+                        "amount": 1
+                    }
+                ]
+            }
+        },
+        "date": "2020-12-04",
+        "done": true
+    },
+    {
+        "cost": 4600,
+        "price": 960,
+        "BV": 84.0,
+        "customer": {
+            "小筑": {
+                "delivery_date": "2020-12-15",
+                "price": 960,
+                "cost": 960,
+                "products": [
+                    {
+                        "product_name": "巧克力雪克",
+                        "amount": 1
+                    }
+                ]
+            },
+            "艾利森": {
+                "delivery_date": "",
+                "price": 0,
+                "cost": 3640,
+                "products": [
+                    {
+                        "product_name": "魚油",
+                        "amount": 1
+                    },
+                    {
+                        "product_name": "B群",
+                        "amount": 1
+                    },
+                    {
+                        "product_name": "酵素",
+                        "amount": 1
+                    }
+                ]
+            }
+        },
+        "date": "2020-12-10",
+        "done": true
+    },
+    {
+        "cost": 6795,
+        "price": 2910,
+        "BV": 137.0,
+        "customer": {
+            "昭玲媽媽": {
+                "delivery_date": "2021-01-15",
+                "price": 2910,
+                "cost": 2070,
+                "products": [
+                    {
+                        "product_name": "酵素隨身包",
+                        "amount": 3
+                    }
+                ]
+            },
+            "媽媽": {
+                "delivery_date": "2021-02-03",
+                "price": 1420,
+                "cost": 1420,
+                "products": [
+                    {
+                        "product_name": "魚油",
+                        "amount": 1
+                    }
+                ]
+            },
+            "艾利森": {
+                "delivery_date": "",
+                "price": 0,
+                "cost": 3305,
+                "products": [
+                    {
+                        "product_name": "OPC",
+                        "amount": 1
+                    },
+                    {
+                        "product_name": "維思康",
+                        "amount": 1
+                    },
+                    {
+                        "product_name": "甘菊洗髮精",
+                        "amount": 1
+                    }
+                ]
+            }
+        },
+        "date": "2021-01-03",
+        "done": false
+    },
+    {
+        "cost": 4505,
+        "price": 2000,
+        "BV": 95.75,
+        "customer": {
+            "艾利森": {
+                "delivery_date": "",
+                "price": 0,
+                "cost": 3145,
+                "products": [
+                    {
+                        "product_name": "綜合維生素",
+                        "amount": 1
+                    },
+                    {
+                        "product_name": "絲晶深層潔膚乳",
+                        "amount": 1
+                    },
+                    {
+                        "product_name": "纖維粉",
+                        "amount": 1
+                    }
+                ]
+            },
+            "阿嬤": {
+                "delivery_date": "2021-01-30",
+                "price": 2000,
+                "cost": 1360,
+                "products": [
+                    {
+                        "product_name": "纖維粉",
+                        "amount": 1
+                    }
+                ]
+            }
+        },
+        "date": "2021-01-20",
+        "done": true
+    },
+    {
+        "cost": 4760,
+        "price": 6400,
+        "BV": 100,
+        "customer": {
+            "婆婆": {
+                "delivery_date": "2021-01-21",
+                "price": 6400,
+                "cost": 4760,
+                "products": [
+                    {
+                        "product_name": "魚油",
+                        "amount": 2
+                    },
+                    {
+                        "product_name": "益生菌",
+                        "amount": 2
+                    }
+                ]
+            }
+        },
+        "date": "2021-01-20",
+        "done": true
+    },
+    {
+        "cost": 4355,
+        "price": 4185,
+        "BV": 86.5,
+        "customer": {
+            "媽媽": {
+                "delivery_date": "2021-02-03",
+                "price": 1745,
+                "cost": 1745,
+                "products": [
+                    {
+                        "product_name": "魚油",
+                        "amount": 1
+                    },
+                    {
+                        "product_name": "洗衣精",
+                        "amount": 1
+                    }
+                ]
+            },
+            "玉棻阿姨": {
+                "delivery_date": "2021-02-08",
+                "price": 450,
+                "cost": 325,
+                "products": [
+                    {
+                        "product_name": "洗衣精",
+                        "amount": 1
+                    }
+                ]
+            },
+            "櫻花阿姨": {
+                "delivery_date": "2021-02-21",
+                "price": 1990,
+                "cost": 1420,
+                "products": [
+                    {
+                        "product_name": "魚油",
+                        "amount": 1
+                    }
+                ]
+            },
+            "艾利森": {
+                "delivery_date": "",
+                "price": 0,
+                "cost": 465,
+                "products": [
+                    {
+                        "product_name": "絲晶洗面乳",
+                        "amount": 1
+                    }
+                ]
+            }
+        },
+        "date": "2021-01-30",
+        "done": false
+    },
+    {
+        "cost": 5625,
+        "price": 2500,
+        "BV": 104.75,
+        "customer": {
+            "艾利森": {
+                "delivery_date": "",
+                "price": 0,
+                "cost": 3785,
+                "products": [
+                    {
+                        "product_name": "順髮油",
+                        "amount": 1
+                    },
+                    {
+                        "product_name": "OPC",
+                        "amount": 1
+                    },
+                    {
+                        "product_name": "益生菌",
+                        "amount": 1
+                    },
+                    {
+                        "product_name": "安膚霜",
+                        "amount": 1
+                    }
+                ]
+            },
+            "阿嬤": {
+                "delivery_date": "2021-02-27",
+                "price": 2500,
+                "cost": 1840,
+                "products": [
+                    {
+                        "product_name": "香草雪克",
+                        "amount": 1
+                    },
+                    {
+                        "product_name": "兒童益生菌",
+                        "amount": 1
+                    }
+                ]
+            }
+        },
+        "date": "2021-02-20",
+        "done": false
+    }
+]

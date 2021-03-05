@@ -1,0 +1,3470 @@
+[
+    {
+        "date": "2019-11-30",
+        "store": "松果購物-2%",
+        "cost": 929,
+        "exp_IBV": 0.62,
+        "IBV": 0.61,
+        "price": 1000,
+        "online": true,
+        "done": true,
+        "customer": {
+            "媽媽": {
+                "delivery_date": "2019-12-05",
+                "price": 1000,
+                "exp_price": 929,
+                "product": "象印悶燒罐(750)"
+            }
+        }
+    },
+    {
+        "date": "2019-12-01",
+        "store": "讚岐本家",
+        "exp_IBV": 0.14,
+        "IBV": 0.13,
+        "online": false,
+        "done": true
+    },
+    {
+        "date": "2019-12-14",
+        "store": "松果購物-6%",
+        "cost": 773,
+        "exp_IBV": 1.55,
+        "IBV": 1.53,
+        "price": 773,
+        "online": true,
+        "done": true,
+        "customer": {
+            "媽媽": {
+                "delivery_date": "2019-12-22",
+                "price": 773,
+                "exp_price": 773,
+                "product": "象印悶燒罐(750)"
+            }
+        }
+    },
+    {
+        "date": "2019-12-16",
+        "store": "松果購物-6%",
+        "cost": 3092,
+        "exp_IBV": 6.18,
+        "IBV": 6.13,
+        "price": 0,
+        "online": true,
+        "done": true,
+        "customer": {
+            "媽媽": {
+                "delivery_date": "2019-12-22",
+                "price": 3092,
+                "exp_price": 3092,
+                "product": "象印悶燒罐(750)"
+            }
+        }
+    },
+    {
+        "date": "2019-12-16",
+        "store": "松果購物-6%",
+        "cost": 4333,
+        "exp_IBV": 8.67,
+        "IBV": 8.59,
+        "price": 4333,
+        "online": true,
+        "done": true,
+        "customer": {
+            "媽媽": {
+                "delivery_date": "2019-12-22",
+                "price": 4333,
+                "exp_price": 4333,
+                "product": "象印悶燒罐(500)"
+            }
+        }
+    },
+    {
+        "date": "2019-12-16",
+        "store": "松果購物-6%",
+        "cost": 774,
+        "exp_IBV": 1.55,
+        "IBV": 1.54,
+        "price": 774,
+        "online": true,
+        "done": true,
+        "customer": {
+            "妹妹": {
+                "delivery_date": "2019-12-27",
+                "price": 774,
+                "exp_price": 774,
+                "product": "迪士尼襪子20入"
+            }
+        }
+    },
+    {
+        "date": "2019-12-22",
+        "store": "讚岐本家",
+        "exp_IBV": 0.25,
+        "IBV": 0.25,
+        "online": false,
+        "done": true
+    },
+    {
+        "date": "2019-12-23",
+        "store": "Moon River",
+        "exp_IBV": 3.51,
+        "IBV": 3.5,
+        "online": false,
+        "done": true
+    },
+    {
+        "date": "2020-01-09",
+        "store": "Moon River",
+        "exp_IBV": 3.76,
+        "IBV": 3.76,
+        "online": false,
+        "done": true
+    },
+    {
+        "date": "2020-01-07",
+        "store": "品牌空間",
+        "exp_IBV": 0.93,
+        "IBV": 0.93,
+        "online": false,
+        "done": true
+    },
+    {
+        "date": "2020-01-10",
+        "store": "家樂福",
+        "cost": 1123,
+        "exp_IBV": 1.87,
+        "IBV": 1.87,
+        "price": 1123,
+        "online": true,
+        "done": true,
+        "customer": {
+            "艾利森": {
+                "delivery_date": "2020-01-10",
+                "price": 0,
+                "exp_price": 0,
+                "product": "罐頭們"
+            }
+        }
+    },
+    {
+        "date": "2020-01-13",
+        "store": "快車肉乾",
+        "cost": 2225,
+        "exp_IBV": 8.16,
+        "IBV": 8.16,
+        "price": 1500,
+        "online": true,
+        "done": true,
+        "customer": {
+            "艾利森": {
+                "delivery_date": "",
+                "price": 0,
+                "exp_price": 0,
+                "product": "肉乾"
+            },
+            "小舅舅": {
+                "delivery_date": "2020-01-18",
+                "price": 1300,
+                "exp_price": 1300,
+                "product": "肉乾"
+            },
+            "漢克": {
+                "delivery_date": "2020-01-20",
+                "price": 200,
+                "exp_price": 200,
+                "product": "肉乾"
+            }
+        }
+    },
+    {
+        "date": "2020-01-17",
+        "store": "怡客咖啡",
+        "exp_IBV": 0.34,
+        "IBV": 0.34,
+        "online": false,
+        "done": true
+    },
+    {
+        "date": "2020-01-17",
+        "store": "怡客咖啡",
+        "exp_IBV": 0.19,
+        "IBV": 0.19,
+        "online": false,
+        "done": true
+    },
+    {
+        "date": "2020-01-17",
+        "store": "讚岐本家",
+        "exp_IBV": 0.18,
+        "IBV": 0.18,
+        "online": false,
+        "done": true
+    },
+    {
+        "date": "2020-01-18",
+        "store": "Friday購物-2%",
+        "cost": 2680,
+        "exp_IBV": 1.79,
+        "IBV": 1.79,
+        "price": 2680,
+        "online": true,
+        "done": true,
+        "customer": {
+            "婆婆": {
+                "delivery_date": "2020-01-19",
+                "price": 2680,
+                "exp_price": 2680,
+                "product": "電動牙刷"
+            }
+        }
+    },
+    {
+        "date": "2020-01-18",
+        "store": "SOGO",
+        "cost": 2380,
+        "exp_IBV": 3.97,
+        "IBV": 0,
+        "price": 2380,
+        "online": true,
+        "done": true,
+        "customer": {
+            "媽媽": {
+                "delivery_date": "2020-02-08",
+                "price": 2380,
+                "exp_price": 2380,
+                "product": "吹風機"
+            }
+        }
+    },
+    {
+        "date": "2020-01-18",
+        "store": "松果購物-6%",
+        "cost": 4292,
+        "exp_IBV": 8.58,
+        "IBV": 8.58,
+        "price": 4292,
+        "online": true,
+        "done": true,
+        "customer": {
+            "媽媽": {
+                "delivery_date": "2020-02-28",
+                "price": 4292,
+                "exp_price": 4292,
+                "product": "象印悶燒罐(500)"
+            }
+        }
+    },
+    {
+        "date": "2020-01-22",
+        "store": "永豐餘",
+        "cost": 778,
+        "exp_IBV": 2.0,
+        "IBV": 2.0,
+        "price": 778,
+        "online": true,
+        "done": true,
+        "customer": {
+            "媽媽": {
+                "delivery_date": "2020-02-28",
+                "price": 778,
+                "exp_price": 778,
+                "product": "五月花衛生紙"
+            }
+        }
+    },
+    {
+        "date": "2020-01-23",
+        "store": "蜂蜜工坊",
+        "cost": 1980,
+        "exp_IBV": 13.07,
+        "IBV": 13.07,
+        "price": 1980,
+        "online": true,
+        "done": true,
+        "customer": {
+            "婆婆": {
+                "delivery_date": "2020-01-23",
+                "price": 1980,
+                "exp_price": 1980,
+                "product": "蜂蜜"
+            }
+        }
+    },
+    {
+        "date": "2020-01-23",
+        "store": "特力屋",
+        "cost": 801,
+        "exp_IBV": 1.6,
+        "IBV": 1.6,
+        "price": 801,
+        "online": true,
+        "done": true,
+        "customer": {
+            "媽媽": {
+                "delivery_date": "2020-02-28",
+                "price": 801,
+                "exp_price": 801,
+                "product": "浴簾"
+            }
+        }
+    },
+    {
+        "date": "2020-01-26",
+        "store": "康那香",
+        "cost": 1980,
+        "exp_IBV": 7.26,
+        "IBV": 6.26,
+        "price": 2000,
+        "online": true,
+        "done": true,
+        "customer": {
+            "小舅舅": {
+                "delivery_date": "2020-01-26",
+                "price": 2000,
+                "exp_price": 1980,
+                "product": "口罩"
+            }
+        }
+    },
+    {
+        "date": "2020-01-28",
+        "store": "康那香",
+        "cost": 1025,
+        "exp_IBV": 3.76,
+        "IBV": 3.12,
+        "price": 2000,
+        "online": true,
+        "done": true,
+        "customer": {
+            "小舅舅": {
+                "delivery_date": "2020-01-26",
+                "price": 2000,
+                "exp_price": 1025,
+                "product": "口罩"
+            }
+        }
+    },
+    {
+        "date": "2020-01-30",
+        "store": "Friday購物-5%",
+        "cost": 1865,
+        "exp_IBV": 3.11,
+        "IBV": 3.08,
+        "price": 1900,
+        "online": true,
+        "done": true,
+        "customer": {
+            "婉如": {
+                "delivery_date": "2020-01-31",
+                "price": 1900,
+                "exp_price": 1865,
+                "product": "蒸氣消毒鍋"
+            }
+        }
+    },
+    {
+        "date": "2020-02-04",
+        "store": "大大生活館",
+        "cost": 2488,
+        "exp_IBV": 10.03,
+        "IBV": 9.93,
+        "price": 2488,
+        "online": true,
+        "done": true,
+        "customer": {
+            "櫻花阿姨": {
+                "delivery_date": "2020-02-15",
+                "price": 2488,
+                "exp_price": 2488,
+                "product": "Brita濾芯"
+            }
+        }
+    },
+    {
+        "date": "2020-02-04",
+        "store": "Moon River",
+        "exp_IBV": 4.62,
+        "IBV": 4.58,
+        "online": false,
+        "done": true
+    },
+    {
+        "date": "2020-02-08",
+        "store": "蘋果派",
+        "exp_IBV": 2.2,
+        "IBV": 2.19,
+        "online": false,
+        "done": true
+    },
+    {
+        "date": "2020-02-09",
+        "store": "初曼咖啡",
+        "exp_IBV": 0.28,
+        "IBV": 0.28,
+        "online": false,
+        "done": true
+    },
+    {
+        "date": "2020-02-09",
+        "store": "Gomaji",
+        "cost": 2990,
+        "exp_IBV": 1.99,
+        "IBV": 1.98,
+        "price": 2990,
+        "online": true,
+        "done": true,
+        "customer": {
+            "小舅舅": {
+                "delivery_date": "2020-02-09",
+                "price": 2990,
+                "exp_price": 2990,
+                "product": "小米手環*4"
+            }
+        }
+    },
+    {
+        "date": "2020-02-10",
+        "store": "家樂福",
+        "cost": 896,
+        "exp_IBV": 1.49,
+        "IBV": 1.49,
+        "price": 900,
+        "online": true,
+        "done": true,
+        "customer": {
+            "小舅舅": {
+                "delivery_date": "2020-02-09",
+                "price": 900,
+                "exp_price": 896,
+                "product": "罐頭們"
+            }
+        }
+    },
+    {
+        "date": "2020-02-13",
+        "store": "Friday購物-5%",
+        "cost": 1780,
+        "exp_IBV": 2.97,
+        "IBV": 2.97,
+        "price": 1780,
+        "online": true,
+        "done": true,
+        "customer": {
+            "婆婆": {
+                "delivery_date": "2020-02-14",
+                "price": 1780,
+                "exp_price": 1780,
+                "product": "鍋子"
+            }
+        }
+    },
+    {
+        "date": "2020-02-16",
+        "store": "Friday購物-6%",
+        "cost": 450,
+        "exp_IBV": 0.9,
+        "IBV": 0.9,
+        "price": 450,
+        "online": true,
+        "done": true,
+        "customer": {
+            "妹妹": {
+                "delivery_date": "2020-02-16",
+                "price": 450,
+                "exp_price": 450,
+                "product": "Casio手錶"
+            }
+        }
+    },
+    {
+        "date": "2020-02-16",
+        "store": "讀冊",
+        "cost": 814,
+        "exp_IBV": 1.9,
+        "IBV": 1.9,
+        "price": 0,
+        "online": true,
+        "done": true,
+        "customer": {
+            "艾利森": {
+                "delivery_date": "",
+                "price": 0,
+                "exp_price": 0,
+                "product": "書*3"
+            }
+        }
+    },
+    {
+        "date": "2020-02-19",
+        "store": "Moon River",
+        "exp_IBV": 3.33,
+        "IBV": 3.31,
+        "online": false,
+        "done": true
+    },
+    {
+        "date": "2020-03-04",
+        "store": "磁鐵達人",
+        "cost": 350,
+        "exp_IBV": 1.28,
+        "IBV": 1.29,
+        "price": 0,
+        "online": true,
+        "done": true,
+        "customer": {
+            "艾利森": {
+                "delivery_date": "",
+                "price": 0,
+                "exp_price": 0,
+                "product": "紙白板"
+            }
+        }
+    },
+    {
+        "date": "2020-03-04",
+        "store": "Friday購物-5%",
+        "cost": 1360,
+        "exp_IBV": 2.27,
+        "IBV": 2.27,
+        "price": 1360,
+        "online": true,
+        "done": true,
+        "customer": {
+            "櫻花阿姨": {
+                "delivery_date": "2020-03-13",
+                "price": 1360,
+                "exp_price": 1360,
+                "product": "理膚寶水乳液"
+            }
+        }
+    },
+    {
+        "date": "2020-03-04",
+        "store": "松果購物-6%",
+        "cost": 460,
+        "exp_IBV": 0.92,
+        "IBV": 0.92,
+        "price": 460,
+        "online": true,
+        "done": true,
+        "customer": {
+            "櫻花阿姨": {
+                "delivery_date": "2020-03-13",
+                "price": 460,
+                "exp_price": 460,
+                "product": "ariel洗衣槽清潔劑"
+            }
+        }
+    },
+    {
+        "date": "2020-03-04",
+        "store": "家樂福",
+        "cost": 816,
+        "exp_IBV": 1.36,
+        "IBV": 1.37,
+        "price": 0,
+        "online": true,
+        "done": true,
+        "customer": {
+            "艾利森": {
+                "delivery_date": "",
+                "price": 0,
+                "exp_price": 0,
+                "product": "衛生棉等"
+            }
+        }
+    },
+    {
+        "date": "2020-03-06",
+        "store": "epayless",
+        "cost": 1335,
+        "exp_IBV": 2.23,
+        "IBV": 2.23,
+        "price": 1335,
+        "online": true,
+        "done": true,
+        "customer": {
+            "櫻花阿姨": {
+                "delivery_date": "2020-03-13",
+                "price": 1335,
+                "exp_price": 1335,
+                "product": "保溫杯"
+            }
+        }
+    },
+    {
+        "date": "2020-03-06",
+        "store": "松果購物-6%",
+        "cost": 1176,
+        "exp_IBV": 2.35,
+        "IBV": 0,
+        "price": 1176,
+        "online": true,
+        "done": true,
+        "customer": {
+            "媽媽": {
+                "delivery_date": "2020-03-20",
+                "price": 1176,
+                "exp_price": 1176,
+                "product": "象印悶燒罐(500)"
+            }
+        }
+    },
+    {
+        "date": "2020-03-22",
+        "store": "家樂福",
+        "cost": 1436,
+        "exp_IBV": 2.39,
+        "IBV": 2.37,
+        "price": 1436,
+        "online": true,
+        "done": true,
+        "customer": {
+            "媽媽": {
+                "delivery_date": "2020-03-31",
+                "price": 1436,
+                "exp_price": 1436,
+                "product": "罐頭日用品"
+            }
+        }
+    },
+    {
+        "date": "2020-04-05",
+        "store": "epayless",
+        "cost": 869,
+        "exp_IBV": 1.45,
+        "IBV": 1.44,
+        "price": 869,
+        "online": true,
+        "done": true,
+        "customer": {
+            "媽媽": {
+                "delivery_date": "2020-04-18",
+                "price": 869,
+                "exp_price": 869,
+                "product": "電風扇"
+            }
+        }
+    },
+    {
+        "date": "2020-04-07",
+        "store": "Friday購物-5%",
+        "cost": 2112,
+        "exp_IBV": 3.52,
+        "IBV": 3.51,
+        "price": 2112,
+        "online": true,
+        "done": true,
+        "customer": {
+            "媽媽": {
+                "delivery_date": "2020-04-18",
+                "price": 528,
+                "exp_price": 528,
+                "product": "牛排"
+            },
+            "Rebecca阿姨": {
+                "delivery_date": "2020-04-11",
+                "price": 528,
+                "exp_price": 528,
+                "product": "牛排"
+            }, 
+            "椒如阿姨": {
+                "delivery_date": "2020-04-11",
+                "price": 528,
+                "exp_price": 528,
+                "product": "牛排"
+            }, 
+            "櫻花阿姨": {
+                "delivery_date": "2020-04-11",
+                "price": 528,
+                "exp_price": 528,
+                "product": "牛排"
+            }
+        }
+    },
+    {
+        "date": "2020-04-07",
+        "store": "尚青購",
+        "cost": 529,
+        "exp_IBV": 1.94,
+        "IBV": 1.93,
+        "price": 529,
+        "online": true,
+        "done": true,
+        "customer": {
+            "櫻花阿姨": {
+                "delivery_date": "2020-04-11",
+                "price": 529,
+                "exp_price": 529,
+                "product": "護目鏡+手套"
+            }
+        }
+    },
+    {
+        "date": "2020-04-07",
+        "store": "MORRIS",
+        "cost": 1275,
+        "exp_IBV": 4.67,
+        "IBV": 4.64,
+        "price": 1275,
+        "online": true,
+        "done": true,
+        "customer": {
+            "媽媽": {
+                "delivery_date": "2020-04-18",
+                "price": 1275,
+                "exp_price": 1275,
+                "product": "爸爸內褲+排汗衫"
+            }
+        }
+    },
+    {
+        "date": "2020-04-07",
+        "store": "ihergo",
+        "cost": 2707,
+        "exp_IBV": 6.32,
+        "IBV": 6.27,
+        "price": 2720,
+        "online": true,
+        "done": true,
+        "customer": {
+            "媽媽": {
+                "delivery_date": "2020-04-19",
+                "price": 680,
+                "exp_price": 680,
+                "product": "猴頭菇"
+            },
+            "Rebecca阿姨": {
+                "delivery_date": "2020-04-13",
+                "price": 680,
+                "exp_price": 680,
+                "product": "猴頭菇"
+            },
+            "惠鴻阿姨": {
+                "delivery_date": "2020-04-13",
+                "price": 680,
+                "exp_price": 680,
+                "product": "猴頭菇"
+            },
+            "櫻花阿姨": {
+                "delivery_date": "2020-04-18",
+                "price": 680,
+                "exp_price": 680,
+                "product": "猴頭菇"
+            }
+        }
+    },
+    {
+        "date": "2020-04-07",
+        "store": "Friday購物-2%",
+        "cost": 780,
+        "exp_IBV": 0.52,
+        "IBV": 0.52,
+        "price": 780,
+        "online": true,
+        "done": true,
+        "customer": {
+            "媽媽": {
+                "delivery_date": "2020-04-18",
+                "price": 780,
+                "exp_price": 780,
+                "product": "檯燈"
+            }
+        }
+    },
+    {
+        "date": "2020-04-12",
+        "store": "臻御行",
+        "cost": 2170,
+        "exp_IBV": 11.94,
+        "IBV": 11.93,
+        "price": 2170,
+        "online": true,
+        "done": true,
+        "customer": {
+            "媽媽": {
+                "delivery_date": "2020-04-18",
+                "price": 740,
+                "exp_price": 740,
+                "product": "橄欖+堅果"
+            },
+            "玉棻阿姨": {
+                "delivery_date": "2020-04-17",
+                "price": 650,
+                "exp_price": 650,
+                "product": "橄欖*5"
+            },
+            "椒如阿姨": {
+                "delivery_date": "2020-04-18",
+                "price": 260,
+                "exp_price": 260,
+                "product": "橄欖*2"
+            },
+            "惠鴻阿姨": {
+                "delivery_date": "2020-04-20",
+                "price": 260,
+                "exp_price": 260,
+                "product": "橄欖*2"
+            },
+            "櫻花阿姨": {
+                "delivery_date": "2020-04-18",
+                "price": 260,
+                "exp_price": 260,
+                "product": "橄欖*2"
+            }
+        }
+    },
+    {
+        "date": "2020-04-13",
+        "store": "生活市集",
+        "cost": 331,
+        "exp_IBV": 0.77,
+        "IBV": 0.77,
+        "price": 400,
+        "online": true,
+        "done": true,
+        "customer": {
+            "玉棻阿姨": {
+                "delivery_date": "2020-04-17",
+                "price": 100,
+                "exp_price": 100,
+                "product": "地漏蓋*2"
+            },
+            "翠英阿姨": {
+                "delivery_date": "2020-04-18",
+                "price": 150,
+                "exp_price": 150,
+                "product": "地漏蓋*3"
+            },
+            "櫻花阿姨": {
+                "delivery_date": "2020-04-18",
+                "price": 150,
+                "exp_price": 150,
+                "product": "地漏蓋*3"
+            }
+        }
+    },
+    {
+        "date": "2020-04-15",
+        "store": "Friday購物-2%",
+        "cost": 1840,
+        "exp_IBV": 1.23,
+        "IBV": 1.22,
+        "price": 0,
+        "online": true,
+        "done": true,
+        "customer": {
+            "艾利森": {
+                "delivery_date": "",
+                "price": 0,
+                "exp_price": 0,
+                "product": "愛迪達鞋"
+            }
+        }
+    },
+    {
+        "date": "2020-04-22",
+        "store": "韓流小舖",
+        "cost": 716,
+        "exp_IBV": 4.2,
+        "IBV": 4.19,
+        "price": 770,
+        "online": true,
+        "done": true,
+        "customer": {
+            "櫻花阿姨": {
+                "delivery_date": "2020-04-30",
+                "price": 450,
+                "exp_price": 450,
+                "product": "順髮油"
+            },
+            "惠鴻阿姨": {
+                
+                "delivery_date": "2020-04-27",
+                "price": 320,
+                "exp_price": 320,
+                "product": "順髮油"
+            }
+        }
+    },
+    {
+        "date": "2020-04-22",
+        "store": "Friday購物-5%",
+        "cost": 663,
+        "exp_IBV": 1.1,
+        "IBV": 1.1,
+        "price": 663,
+        "online": true,
+        "done": true,
+        "customer": {
+            "椒如阿姨": {
+                "delivery_date": "2020-04-22",
+                "price": 663,
+                "exp_price": 663,
+                "product": "豬腳麵線"
+            }
+        }
+    },
+    {
+        "date": "2020-04-22",
+        "store": "Friday購物-5%",
+        "cost": 495,
+        "exp_IBV": 0.82,
+        "IBV": 0.82,
+        "price": 495,
+        "online": true,
+        "done": true,
+        "customer": {
+            "媽媽": {
+                "delivery_date": "2020-05-26",
+                "price": 495,
+                "exp_price": 495,
+                "product": "牙膏"
+            }
+        }
+    },
+    {
+        "date": "2020-04-23",
+        "store": "讚岐本家",
+        "exp_IBV": 0.29,
+        "IBV": 0.29,
+        "online": false,
+        "done": true
+    },
+    {
+        "date": "2020-04-27",
+        "store": "亞尼克",
+        "cost": 2174,
+        "exp_IBV": 9.57,
+        "IBV": 9.53,
+        "price": 1597,
+        "online": true,
+        "done": true,
+        "customer": {
+            "艾利森": {
+                "delivery_date": "",
+                "price": 0,
+                "exp_price": 0,
+                "product": "亞尼克蛋糕"
+            },
+            "椒如阿姨": {
+                "delivery_date": "2020-05-06",
+                "price": 319,
+                "exp_price": 319,
+                "product": "亞尼克蛋糕"
+            },
+            "Rebecca阿姨": {
+                "delivery_date": "2020-05-06",
+                "price": 319,
+                "exp_price": 319,
+                "product": "亞尼克蛋糕"
+            },
+            "玉棻阿姨": {
+                "delivery_date": "2020-05-06",
+                "price": 640,
+                "exp_price": 640,
+                "product": "亞尼克蛋糕"
+            },
+            "Migo": {
+                "delivery_date": "2020-05-07",
+                "price": 319,
+                "exp_price": 319,
+                "product": "亞尼克蛋糕"
+            }
+
+        }
+    },
+    {
+        "date": "2020-05-08",
+        "store": "卜蜂",
+        "cost": 1630,
+        "exp_IBV": 5.98,
+        "IBV": 5.98,
+        "price": 1630,
+        "online": true,
+        "done": true,
+        "customer": {
+            "媽媽": {
+                "delivery_date": "2020-05-26",
+                "price": 815,
+                "exp_price": 815,
+                "product": "卜蜂雞肉"
+            },
+            "Rebecca阿姨": {
+                "delivery_date": "2020-05-14",
+                "price": 815,
+                "exp_price": 815,
+                "product": "卜蜂雞肉"
+            }
+        }
+    },
+    {
+        "date": "2020-05-08",
+        "store": "Friday購物-5%",
+        "cost": 2494,
+        "exp_IBV": 4.16,
+        "IBV": 4.18,
+        "price": 2494,
+        "online": true,
+        "done": true,
+        "customer": {
+            "婆婆": {
+                "delivery_date": "2020-05-09",
+                "price": 2494,
+                "exp_price": 2494,
+                "product": "凡士林"
+            }
+        }
+    },
+    {
+        "date": "2020-05-10",
+        "store": "臻御行",
+        "cost": 753,
+        "exp_IBV": 4.14,
+        "IBV": 4.16,
+        "price": 990,
+        "online": true,
+        "done": true,
+        "customer": {
+            "玉棻阿姨": {
+                "delivery_date": "2020-05-14",
+                "price": 780,
+                "exp_price": 780,
+                "product": "橄欖"
+            },
+            "Rebecca阿姨": {
+                "delivery_date": "2020-05-14",
+                "price": 210,
+                "exp_price": 210,
+                "product": "橄欖"
+            }
+        }
+    },
+    {
+        "date": "2020-05-10",
+        "store": "臻御行",
+        "cost": 600,
+        "exp_IBV": 3.3,
+        "IBV": 3.3,
+        "price": 600,
+        "online": true,
+        "done": true,
+        "customer": {
+            "媽媽": {
+                "delivery_date": "2020-05-26",
+                "price": 120,
+                "exp_price": 120,
+                "product": "山楂桑椹條"
+            },
+            "惠鴻阿姨": {
+                "delivery_date": "2020-05-23",
+                "price": 120,
+                "exp_price": 120,
+                "product": "山楂桑椹條"
+            },
+            "椒如阿姨": {
+                "delivery_date": "2020-05-24",
+                "price": 120,
+                "exp_price": 120,
+                "product": "山楂桑椹條"
+            },
+            "櫻花阿姨": {
+                "delivery_date": "2020-05-26",
+                "price": 120,
+                "exp_price": 120,
+                "product": "山楂桑椹條"
+            },
+            "美玲阿姨": {
+                "delivery_date": "2020-05-30",
+                "price": 120,
+                "exp_price": 120,
+                "product": "山楂桑椹條"
+            }
+        }
+    },
+    {
+        "date": "2020-05-22",
+        "store": "Friday購物-6%",
+        "cost": 981,
+        "exp_IBV": 1.96,
+        "IBV": 1.97,
+        "price": 1040,
+        "online": true,
+        "done": true,
+        "customer": {
+            "媽媽": {
+                "delivery_date": "2020-05-26",
+                "price": 520,
+                "exp_price": 520,
+                "product": "跳繩"
+            },
+            "翠英阿姨": {
+                "delivery_date": "2020-05-30",
+                "price": 520,
+                "exp_price": 520,
+                "product": "跳繩"
+            }
+        }
+    },
+    {
+        "date": "2020-05-22",
+        "store": "Friday購物-6%",
+        "cost": 491,
+        "exp_IBV": 0.98,
+        "IBV": 0.98,
+        "price": 520,
+        "online": true,
+        "done": true,
+        "customer": {
+            "玉棻阿姨": {
+                "delivery_date": "2020-05-31",
+                "price": 520,
+                "exp_price": 520,
+                "product": "跳繩"
+            }
+        }
+    },
+    {
+        "date": "2020-05-22",
+        "store": "卜蜂",
+        "cost": 815,
+        "exp_IBV": 2.99,
+        "IBV": 2.99,
+        "price": 815,
+        "online": true,
+        "done": true,
+        "customer": {
+            "惠鴻阿姨": {
+                "delivery_date": "2020-05-23",
+                "price": 815,
+                "exp_price": 815,
+                "product": "卜蜂雞肉"
+            }
+        }
+    },
+    {
+        "date": "2020-05-23",
+        "store": "卜蜂",
+        "cost": 815,
+        "exp_IBV": 2.99,
+        "IBV": 2.99,
+        "price": 815,
+        "online": true,
+        "done": true,
+        "customer": {
+            "椒如阿姨": { 
+                "delivery_date": "2020-05-23",
+                "price": 815,
+                "exp_price": 815,
+                "product": "卜蜂雞肉"
+            }
+        }
+    },
+    {
+        "date": "2020-05-26",
+        "store": "鮮食加",
+        "cost": 1863,
+        "exp_IBV": 6.83,
+        "IBV": 6.81,
+        "price": 1863,
+        "online": true,
+        "done": true,
+        "customer": {
+            "惠鴻阿姨": {
+                "delivery_date": "2020-05-30",
+                "price": 1311,
+                "exp_price": 1311,
+                "product": "月亮蝦餅*19"
+            },
+            "媽媽": {
+                "delivery_date": "2020-05-31",
+                "price": 276,
+                "exp_price": 276,
+                "product": "月亮蝦餅*4"
+            },
+            "椒如阿姨": {
+                "delivery_date": "2020-05-30",
+                "price": 276,
+                "exp_price": 276,
+                "product": "月亮蝦餅*4"
+            }
+        }
+    },
+    {
+        "date": "2020-05-27",
+        "store": "披薩市美食超市",
+        "cost": 1870,
+        "exp_IBV": 7.54,
+        "IBV": 7.54,
+        "price": 1946,
+        "online": true,
+        "done": true,
+        "customer": {
+            "媽媽": {
+                "delivery_date": "2020-05-31",
+                "price": 278,
+                "exp_price": 278,
+                "product": "檸檬冰角"
+            },
+            "椒如阿姨": {
+                "delivery_date": "2020-05-29",
+                "price": 139,
+                "exp_price": 139,
+                "product": "檸檬冰角"
+            },
+            "玉棻阿姨": {
+                "delivery_date": "2020-05-31",
+                "price": 417,
+                "exp_price": 417,
+                "product": "檸檬冰角"
+            },
+            "Rebecca阿姨": {
+                "delivery_date": "020-05-29",
+                "price": 695,
+                "exp_price": 695,
+                "product": "檸檬冰角"
+            },
+            "櫻花阿姨": {
+                "delivery_date": "2020-05-29",
+                "price": 417,
+                "exp_price": 417,
+                "product": "檸檬冰角"
+            }
+        }
+    },
+    {
+        "date": "2020-05-22",
+        "store": "Friday購物-2%",
+        "cost": 835,
+        "exp_IBV": 0.56,
+        "IBV": 0.56,
+        "price": 835,
+        "online": true,
+        "done": true,
+        "customer": {
+            "媽媽": {
+                "delivery_date": "2020-05-31",
+                "price": 835,
+                "exp_price": 835,
+                "product": "小米手環"
+            }
+        }
+    },
+    {
+        "date": "2020-05-29",
+        "store": "Moon River",
+        "exp_IBV": 4.07,
+        "IBV": 0,
+        "online": false,
+        "done": true
+    },
+    {
+        "date": "2020-05-31",
+        "store": "誠品",
+        "cost": 2440,
+        "exp_IBV": 4.88,
+        "IBV": 4.89,
+        "price": 0,
+        "online": true,
+        "done": true,
+        "customer": {
+            "艾利森": {
+                "delivery_date": "",
+                "price": 0,
+                "exp_price": 0,
+                "product": "耳機"
+            }
+        }
+    },
+    {
+        "date": "2020-06-01",
+        "store": "卜蜂",
+        "cost": 1950,
+        "exp_IBV": 7.15,
+        "IBV": 7.16,
+        "price": 1950,
+        "online": true,
+        "done": true,
+        "customer": {
+            "椒如阿姨": {
+                "delivery_date": "2020-06-01",
+                "price": 1950,
+                "exp_price": 1950,
+                "product": "卜蜂雞肉"
+            }
+        }
+    },
+    {
+        "date": "2020-06-08",
+        "store": "卜蜂",
+        "cost": 1050,
+        "exp_IBV": 3.85,
+        "IBV": 3.89,
+        "price": 1050,
+        "online": true,
+        "done": true,
+        "customer": {
+            "櫻花阿姨": {
+                "delivery_date": "2020-06-08",
+                "price": 1050,
+                "exp_price": 1050,
+                "product": "卜蜂雞肉"
+            }
+        }
+    },
+    {
+        "date": "2020-06-09",
+        "store": "生活市集",
+        "cost": 290,
+        "exp_IBV": 0.68,
+        "IBV": 0.68,
+        "price": 0,
+        "online": true,
+        "done": true,
+        "customer": {
+            "艾利森": {
+                "delivery_date": "",
+                "price": 0,
+                "exp_price": 0,
+                "product": "電腦架"
+            }
+        }
+    },
+    {
+        "date": "2020-06-12",
+        "store": "7Power",
+        "cost": 2770,
+        "exp_IBV": 26.41,
+        "IBV": 0,
+        "price": 3213,
+        "online": true,
+        "done": true,
+        "customer": {
+            "媽媽": {
+                "delivery_date": "2020-06-27",
+                "price": 714,
+                "exp_price": 714,
+                "product": "磁力貼"
+            },
+            "櫻花阿姨": {
+                "delivery_date": "2020-06-20",
+                "price": 714,
+                "exp_price": 714,
+                "product": "磁力貼"
+            },
+            "翠英阿姨": {
+                "delivery_date": "2020-06-20",
+                "price": 357,
+                "exp_price": 357,
+                "product": "磁力貼"
+            },
+            "美玲阿姨": {
+                "delivery_date": "2020-06-20",
+                "price": 357,
+                "exp_price": 357,
+                "product": "磁力貼"
+            },
+            "玉棻阿姨": {
+                "delivery_date": "2020-07-04",
+                "price": 714,
+                "exp_price": 714,
+                "product": "磁力貼"
+            },
+            "惠鴻阿姨": {
+                "delivery_date": "2020-07-05",
+                "price": 357,
+                "exp_price": 357,
+                "product": "磁力貼"
+            }
+        }
+    },
+    {
+        "date": "2020-06-16",
+        "store": "吐司利亞",
+        "cost": 1069,
+        "exp_IBV": 3.14,
+        "IBV": 0,
+        "price": 0,
+        "online": true,
+        "done": true,
+        "customer": {
+            "艾利森": {
+                "delivery_date": "",
+                "price": 0,
+                "exp_price": 0,
+                "product": "吃飯"
+            }
+        }
+    },
+    {
+        "date": "2020-06-17",
+        "store": "鮮食家",
+        "cost": 1775,
+        "exp_IBV": 6.51,
+        "IBV": 6.58,
+        "price": 0,
+        "online": true,
+        "done": true,
+        "customer": {
+            "媽媽": {
+                "delivery_date": "2020-06-27",
+                "price": 621,
+                "exp_price": 621,
+                "product": "月亮蝦餅"
+            },
+            "椒如阿姨": {
+                "delivery_date": "2020-06-23",
+                "price": 276,
+                "exp_price": 276,
+                "product": "月亮蝦餅"
+            },
+            "Rebecca阿姨": {
+                "delivery_date": "2020-06-23",
+                "price": 345,
+                "exp_price": 345,
+                "product": "月亮蝦餅"
+            },
+            "惠鴻阿姨": {
+                "delivery_date": "2020-06-23",
+                "price": 552,
+                "exp_price": 552,
+                "product": "月亮蝦餅"
+            }
+        }
+    },
+    {
+        "date": "2020-06-27",
+        "store": "shoppINN",
+        "cost": 990,
+        "exp_IBV": 3.63,
+        "IBV": 3.69,
+        "price": 0,
+        "online": true,
+        "done": true,
+        "customer": {
+            "艾利森": {
+                "delivery_date": "",
+                "price": 0,
+                "exp_price": 0,
+                "product": "西裝外套"
+            }
+        }
+    },
+    {
+        "date": "2020-07-05",
+        "store": "坤伯",
+        "cost": 1180,
+        "exp_IBV": 4.33,
+        "IBV": 0,
+        "price": 930,
+        "online": true,
+        "done": true,
+        "customer": {
+            "艾利森": {
+                "delivery_date": "2020-08-04",
+                "price": 0,
+                "exp_price": 0,
+                "product": "水餃"
+            },
+            "媽媽": {
+                "delivery_date": "2020-08-04",
+                "price": 280,
+                "exp_price": 280,
+                "product": "水餃"
+            },
+            "辰穎": {
+                "delivery_date": "2020-07-21",
+                "price": 150,
+                "exp_price": 150,
+                "product": "水餃"
+            },
+            "Rebecca阿姨": {
+                "delivery_date": "2020-07-21",
+                "price": 200,
+                "exp_price": 200,
+                "product": "水餃"
+            },
+            "櫻花阿姨": {
+                "delivery_date": "2020-07-21",
+                "price": 150,
+                "exp_price": 150,
+                "product": "水餃"
+            },
+            "惠鴻阿姨": {
+                "delivery_date": "2020-08-04",
+                "price": 150,
+                "exp_price": 150,
+                "product": "水餃"
+            }
+        }
+    },
+    {
+        "date": "2020-07-06",
+        "store": "ihergo",
+        "cost": 725,
+        "exp_IBV": 1.69,
+        "IBV": 1.72,
+        "price": 852,
+        "online": true,
+        "done": true,
+        "customer": {
+            "媽媽": {
+                "delivery_date": "2020-08-04",
+                "price": 284,
+                "exp_price": 284,
+                "product": "毛豆"
+            },
+            "椒如阿姨": {
+                "delivery_date": "2020-07-14",
+                "price": 284,
+                "exp_price": 284,
+                "product": "毛豆"
+            },
+            "Rebecca阿姨": {
+                "delivery_date": "2020-07-10",
+                "price": 284,
+                "exp_price": 284,
+                "product": "毛豆"
+            }
+        }
+    },
+    {
+        "date": "2020-07-06",
+        "store": "快車肉乾",
+        "cost": 813,
+        "exp_IBV": 2.98,
+        "IBV": 2.48,
+        "price": 980,
+        "online": true,
+        "done": true,
+        "customer": {
+            "Rebecca阿姨": {
+                "delivery_date": "2020-07-10",
+                "price": 980,
+                "exp_price": 980,
+                "product": "快車肉乾"
+            }
+        }
+    },
+    {
+        "date": "2020-07-07",
+        "store": "Friday購物-2%",
+        "cost": 390,
+        "exp_IBV": 0.26,
+        "IBV": 0.27,
+        "price": 390,
+        "online": true,
+        "done": true,
+        "customer": {
+            "妹妹": {
+                "delivery_date": "2020-07-08",
+                "price": 390,
+                "exp_price": 390,
+                "product": "無線耳機"
+            }
+        }
+    },
+    {
+        "date": "2020-07-10",
+        "store": "築地一番鮮",
+        "cost": 750,
+        "exp_IBV": 2.75,
+        "IBV": 2.8,
+        "price": 750,
+        "online": true,
+        "done": true,
+        "customer": {
+            "Rebecca阿姨": {
+                "delivery_date": "2020-07-14",
+                "price": 750,
+                "exp_price": 750,
+                "product": "櫻桃"
+            }
+        }
+    },
+    {
+        "date": "2020-07-10",
+        "store": "築地一番鮮",
+        "cost": 750,
+        "exp_IBV": 2.75,
+        "IBV": 2.8,
+        "price": 750,
+        "online": true,
+        "done": true,
+        "customer": {
+            "玉棻阿姨": {
+                "delivery_date": "2020-07-17",
+                "price": 750,
+                "exp_price": 750,
+                "product": "櫻桃"
+            }
+        }
+    },
+    {
+        "date": "2020-07-13",
+        "store": "日新",
+        "cost": 3312,
+        "exp_IBV": 12.14,
+        "IBV": 12.36,
+        "price": 3051,
+        "online": true,
+        "done": true,
+        "customer": {
+            "艾利森": {
+                "delivery_date": "2020-07-24",
+                "price": 0,
+                "exp_price": 0,
+                "product": "日新輔助品"
+            },
+            "海賊們": {
+                "delivery_date": "2020-07-24",
+                "price": 3051,
+                "exp_price": 3051,
+                "product": "日新輔助品"
+            }
+        }
+    },
+    {
+        "date": "2020-07-14",
+        "store": "ihergo",
+        "cost": 452,
+        "exp_IBV": 1.05,
+        "IBV": 1.07,
+        "price": 452,
+        "online": true,
+        "done": true,
+        "customer": {
+            "椒如阿姨": {
+                "delivery_date": "2020-07-14",
+                "price": 452,
+                "exp_price": 452,
+                "product": "毛豆"
+            }
+        }
+    },
+    {
+        "date": "2020-07-18",
+        "store": "咖啡瑪榭",
+        "exp_IBV": 0.9,
+        "IBV": 0.91,
+        "online": false,
+        "done": true
+    },
+    {
+        "date": "2020-07-20",
+        "store": "築地一番鮮",
+        "cost": 649,
+        "exp_IBV": 2.38,
+        "IBV": 2.42,
+        "price": 649,
+        "online": true,
+        "done": true,
+        "customer": {
+            "媽媽": {
+                "delivery_date": "2020-08-04",
+                "price": 649,
+                "exp_price": 649,
+                "product": "鮭魚"
+            }
+        }
+    },
+    {
+        "date": "2020-07-20",
+        "store": "築地一番鮮",
+        "cost": 649,
+        "exp_IBV": 2.38,
+        "IBV": 2.42,
+        "price": 649,
+        "online": true,
+        "done": true,
+        "customer": {
+            "惠鴻阿姨": {
+                "delivery_date": "2020-07-23",
+                "price": 649,
+                "exp_price": 649,
+                "product": "鮭魚"
+            }
+        }
+    },
+    {
+        "date": "2020-07-20",
+        "store": "築地一番鮮",
+        "cost": 649,
+        "exp_IBV": 2.38,
+        "IBV": 2.42,
+        "price": 649,
+        "online": true,
+        "done": true,
+        "customer": {
+            "椒如阿姨": {
+                "delivery_date": "2020-07-23",
+                "price": 649,
+                "exp_price": 649,
+                "product": "鮭魚"
+            }
+        }
+    },
+    {
+        "date": "2020-07-20",
+        "store": "déPLACE",
+        "exp_IBV": 4.16,
+        "IBV": 4.23,
+        "online": false,
+        "done": true
+    },
+    {
+        "date": "2020-07-22",
+        "store": "舒曼六號餐館",
+        "exp_IBV": 2.98,
+        "IBV": 3.04,
+        "online": false,
+        "done": true
+    },
+    {
+        "date": "2020-07-24",
+        "store": "MBM",
+        "cost": 1683,
+        "exp_IBV": 21.6,
+        "IBV": 0,
+        "price": 1683,
+        "online": true,
+        "done": true,
+        "customer": {
+            "櫻花阿姨": {
+                "delivery_date": "2020-07-31",
+                "price": 1683,
+                "exp_price": 1683,
+                "product": "地墊"
+            }
+        }
+    },
+    {
+        "date": "2020-07-26",
+        "store": "家樂福",
+        "cost": 1175,
+        "exp_IBV": 1.96,
+        "IBV": 1.99,
+        "price": 1175,
+        "online": true,
+        "done": true,
+        "customer": {
+            "阿嬤": {
+                "delivery_date": "2020-07-26",
+                "price": 1175,
+                "exp_price": 1175,
+                "product": "家樂福"
+            }
+        }
+    },
+    {
+        "date": "2020-08-04",
+        "store": "舒曼六號餐館",
+        "exp_IBV": 2.1,
+        "IBV": 2.14,
+        "online": false,
+        "done": true
+    },
+    {
+        "date": "2020-08-07",
+        "store": "三花棉業",
+        "cost": 1200,
+        "exp_IBV": 4.4,
+        "IBV": 4.44,
+        "price": 0,
+        "online": true,
+        "done": true,
+        "customer": {
+            "艾利森": {
+                "delivery_date": "",
+                "price": 0,
+                "exp_price": 0,
+                "product": "針織平口褲"
+            }
+        }
+    },
+    {
+        "date": "2020-08-11",
+        "store": "吐司利亞",
+        "exp_IBV": 4.36,
+        "IBV": 0,
+        "online": false,
+        "done": true
+    },
+    {
+        "date": "2020-08-14",
+        "store": "生活市集",
+        "cost": 831,
+        "exp_IBV": 1.94,
+        "IBV": 1.98,
+        "price": 0,
+        "online": true,
+        "done": true,
+        "customer": {
+            "艾利森": {
+                "delivery_date": "",
+                "price": 0,
+                "exp_price": 0,
+                "product": "衛生紙"
+            }
+        }
+    },
+    {
+        "date": "2020-08-14",
+        "store": "家樂福",
+        "cost": 816,
+        "exp_IBV": 1.36,
+        "IBV": 1.38,
+        "price": 0,
+        "online": true,
+        "done": true,
+        "customer": {
+            "艾利森": {
+                "delivery_date": "",
+                "price": 0,
+                "exp_price": 0,
+                "product": "罐頭+衛生棉"
+            }
+        }
+    },
+    {
+        "date": "2020-08-16",
+        "store": "披薩市美食超市",
+        "cost": 1350,
+        "exp_IBV": 5.45,
+        "IBV": 5.55,
+        "price": 1390,
+        "online": true,
+        "done": true,
+        "customer": {
+            "媽媽": {
+                "delivery_date": "2020-08-26",
+                "price": 417,
+                "exp_price": 417,
+                "product": "檸檬冰角"
+            },
+            "玉棻阿姨": {
+                "delivery_date": "2020-08-22",
+                "price": 417,
+                "exp_price": 417,
+                "product": "檸檬冰角"
+            },
+            "椒如阿姨": {
+                "delivery_date": "2020-08-21",
+                "price": 139,
+                "exp_price": 139,
+                "product": "檸檬冰角"
+            },
+            "櫻花阿姨": {
+                "delivery_date": "2020-08-21",
+                "price": 417,
+                "exp_price": 417,
+                "product": "檸檬冰角"
+            }
+        }
+    },
+    {
+        "date": "2020-08-22",
+        "store": "咖啡瑪榭",
+        "exp_IBV": 1.27,
+        "IBV": 1.3,
+        "online": false,
+        "done": true
+    },
+    {
+        "date": "2020-08-23",
+        "store": "怡客咖啡",
+        "exp_IBV": 0.14,
+        "IBV": 0.14,
+        "online": false,
+        "done": true
+    },
+    {
+        "date": "2020-08-28",
+        "store": "怡客咖啡",
+        "exp_IBV": 0.23,
+        "IBV": 0.23,
+        "online": false,
+        "done": true
+    },
+    {
+        "date": "2020-09-05",
+        "store": "booking.com",
+        "cost": 700,
+        "exp_IBV": 1.4,
+        "IBV": 0,
+        "price": 0,
+        "online": true,
+        "done": true,
+        "customer": {
+            "艾利森": {
+                "delivery_date": "",
+                "price": 0,
+                "exp_price": 0,
+                "product": "9/8花蓮住宿"
+            }
+        }
+    },
+    {
+        "date": "2020-09-18",
+        "store": "食安先生",
+        "cost": 2015,
+        "exp_IBV": 13.3,
+        "IBV": 0,
+        "price": 1340,
+        "online": true,
+        "done": true,
+        "customer": {
+            "艾利森": {
+                "delivery_date": "",
+                "price": 0,
+                "exp_price": 0,
+                "product": "雞胸肉"
+            },
+            "漢克": {
+                "delivery_date": "2020-09-27",
+                "price": 400,
+                "exp_price": 400,
+                "product": "雞胸肉"
+            },
+            "Rebecca阿姨": {
+                "delivery_date": "2020-09-27",
+                "price": 400,
+                "exp_price": 400,
+                "product": "雞胸肉"
+            },
+            "惠鴻阿姨": {
+                "delivery_date": "2020-09-22",
+                "price": 200,
+                "exp_price": 200,
+                "product": "雞胸肉"
+            },
+            "椒如阿姨": {
+                "delivery_date": "2020-09-22",
+                "price": 340,
+                "exp_price": 340,
+                "product": "雞胸肉"
+            }
+        }
+    },
+    {
+        "date": "2020-09-24",
+        "store": "三井",
+        "cost": 1050,
+        "exp_IBV": 0.7,
+        "IBV": 0.72,
+        "price": 1050,
+        "online": true,
+        "done": true,
+        "customer": {
+            "漢克": {
+                "delivery_date": "2020-09-27",
+                "price": 1050,
+                "exp_price": 1050,
+                "product": "錶帶"
+            }
+        }
+    },
+    {
+        "date": "2020-10-04",
+        "store": "卜蜂",
+        "cost": 1950,
+        "exp_IBV": 7.15,
+        "IBV": 7.41,
+        "price": 1950,
+        "online": true,
+        "done": true,
+        "customer": {
+            "椒如阿姨": {
+                "delivery_date": "2020-10-04",
+                "price": 2950,
+                "exp_price": 2950,
+                "product": "醃漬雞腿排"
+            }
+        }
+    },
+    {
+        "date": "2020-10-04",
+        "store": "食安先生",
+        "cost": 849,
+        "exp_IBV": 5.6,
+        "IBV": 5.81,
+        "price": 0,
+        "online": true,
+        "done": true,
+        "customer": {
+            "艾利森": {
+                "delivery_date": "",
+                "price": 0,
+                "exp_price": 0,
+                "product": "雞肉地瓜"
+            }
+        }
+    },
+    {
+        "date": "2020-10-13",
+        "store": "MBM",
+        "cost": 1683,
+        "exp_IBV": 21.6,
+        "IBV": 22.58,
+        "price": 1683,
+        "online": true,
+        "done": true,
+        "customer": {
+            "櫻花阿姨": {
+                "delivery_date": "2020-10-18",
+                "price": 1683,
+                "exp_price": 1683,
+                "product": "地墊"
+            }
+        }
+    },
+    {
+        "date": "2020-10-18",
+        "store": "松果購物-6%",
+        "cost": 1880,
+        "exp_IBV": 3.76,
+        "IBV": 3.92,
+        "price": 0,
+        "online": true,
+        "done": true,
+        "customer": {
+            "艾利森": {
+                "delivery_date": "",
+                "price": 0,
+                "exp_price": 0,
+                "product": "體脂計"
+            }
+        }
+    },
+    {
+        "date": "2020-10-26",
+        "store": "Friday購物-5%",
+        "cost": 380,
+        "exp_IBV": 0.63,
+        "IBV": 0.66,
+        "price": 0,
+        "online": true,
+        "done": true,
+        "customer": {
+            "艾利森": {
+                "delivery_date": "",
+                "price": 0,
+                "exp_price": 0,
+                "product": "環保餐具"
+            }
+        }
+    },
+    {
+        "date": "2020-10-27",
+        "store": "松果購物-6%",
+        "cost": 308,
+        "exp_IBV": 0.62,
+        "IBV": 0.65,
+        "price": 308,
+        "online": true,
+        "done": true,
+        "customer": {
+            "媽媽": {
+                "delivery_date": "2020-10-31",
+                "price": 308,
+                "exp_price": 308,
+                "product": "文昌塔"
+            }
+        }
+    },
+    {
+        "date": "2020-10-27",
+        "store": "松果購物-6%",
+        "cost": 842,
+        "exp_IBV": 1.68,
+        "IBV": 1.76,
+        "price": 842,
+        "online": true,
+        "done": true,
+        "customer": {
+            "媽媽": {
+                "delivery_date": "2020-10-31",
+                "price": 842,
+                "exp_price": 842,
+                "product": "牙線"
+            }
+        }
+    },
+    {
+        "date": "2020-10-29",
+        "store": "五行麻",
+        "cost": 799,
+        "exp_IBV": 5.86,
+        "IBV": 6.14,
+        "price": 199,
+        "online": true,
+        "done": true,
+        "customer": {
+            "艾利森": {
+                "delivery_date": "",
+                "price": 0,
+                "exp_price": 0,
+                "product": "五行麻"
+            },
+            "玉棻阿姨": {
+                "delivery_date": "2020-11-02",
+                "price": 199,
+                "exp_price": 199,
+                "product": "五行麻"
+            }
+        }
+    },
+    {
+        "date": "2020-11-02",
+        "store": "李大娘買菜網",
+        "cost": 778,
+        "exp_IBV": 2.85,
+        "IBV": 2.99,
+        "price": 778,
+        "online": true,
+        "done": true,
+        "customer": {
+            "媽媽": {
+                "delivery_date": "2020-11-05",
+                "price": 778,
+                "exp_price": 778,
+                "product": "雞胸肉、青菜"
+            }
+        }
+    },
+    {
+        "date": "2020-11-04",
+        "store": "三花棉業",
+        "cost": 1200,
+        "exp_IBV": 4.4,
+        "IBV": 4.61,
+        "price": 1200,
+        "online": true,
+        "done": true,
+        "customer": {
+            "漢克": {
+                "delivery_date": "2020-11-17",
+                "price": 1200,
+                "exp_price": 1200,
+                "product": "內褲"
+            }
+        }
+    },
+    {
+        "date": "2020-11-05",
+        "store": "怡客咖啡",
+        "exp_IBV": 0.16,
+        "IBV": 0.17,
+        "online": false,
+        "done": true
+    },
+    {
+        "date": "2020-11-06",
+        "store": "遠傳",
+        "cost": 0,
+        "exp_IBV": 26.31,
+        "IBV": 27.63,
+        "price": 0,
+        "online": true,
+        "done": true,
+        "customer": {
+            "媽媽": {
+                "delivery_date": "",
+                "price": 0,
+                "exp_price": 0,
+                "product": "電信2年"
+            }
+        }
+    },
+    {
+        "date": "2020-11-08",
+        "store": "台灣珂宣尼KXL",
+        "cost": 2280,
+        "exp_IBV": 16.72,
+        "IBV": 17.54,
+        "price": 1140,
+        "online": true,
+        "done": true,
+        "customer": {
+            "艾利森": {
+                "delivery_date": "",
+                "price": 0,
+                "exp_price": 0,
+                "product": "壓力褲"
+            },
+            "媽媽": {
+                "delivery_date": "2020-12-31",
+                "price": 1140,
+                "exp_price": 1140,
+                "product": "壓力褲"
+            }
+        }
+    },
+    {
+        "date": "2020-11-08",
+        "store": "日新",
+        "cost": 550,
+        "exp_IBV": 2.02,
+        "IBV": 2.12,
+        "price": 108,
+        "online": true,
+        "done": true,
+        "customer": {
+            "海賊們": {
+                "delivery_date": "2020-11-08",
+                "price": 108,
+                "exp_price": 108,
+                "product": "日新輔助品"
+            },
+            "艾利森": {
+                "delivery_date": "",
+                "price": 0,
+                "exp_price": 0,
+                "product": "日新輔助品"
+            }
+        }
+    },
+    {
+        "date": "2020-11-09",
+        "store": "生活市集",
+        "cost": 679,
+        "exp_IBV": 1.58,
+        "IBV": 1.58,
+        "price": 679,
+        "online": true,
+        "done": true,
+        "customer": {
+            "妹妹": {
+                "delivery_date": "2020-11-15",
+                "price": 679,
+                "exp_price": 679,
+                "product": "威德能量飲"
+            }
+        }
+    },
+    {
+        "date": "2020-11-09",
+        "store": "築地一番鮮",
+        "cost": 2498,
+        "exp_IBV": 9.16,
+        "IBV": 9.6,
+        "price": 2499,
+        "online": true,
+        "done": true,
+        "customer": {
+            "媽媽": {
+                "delivery_date": "2020-11-31",
+                "price": 625,
+                "exp_price": 625,
+                "product": "挪威薄鹽鯖魚"
+            },
+            "哲勳叔叔": {
+                "delivery_date": "2020-11-13",
+                "price": 1249,
+                "exp_price": 1249,
+                "product": "挪威薄鹽鯖魚"
+            },
+            "椒如阿姨": {
+                "delivery_date": "2020-11-21",
+                "price": 625,
+                "exp_price": 625,
+                "product": "挪威薄鹽鯖魚"
+            }
+        }
+    },
+    {
+        "date": "2020-11-09",
+        "store": "Friday購物-5%",
+        "cost": 884,
+        "exp_IBV": 1.47,
+        "IBV": 0,
+        "price": 319,
+        "online": true,
+        "done": true,
+        "customer": {
+            "艾利森": {
+                "delivery_date": "",
+                "price": 0,
+                "exp_price": 0,
+                "product": "日用品"
+            },
+            "漢克": {
+                "delivery_date": "2020-11-17",
+                "price": 319,
+                "exp_price": 319,
+                "product": "電蚊香"
+            }
+        }
+    },
+    {
+        "date": "2020-11-11",
+        "store": "歐美賣油品",
+        "cost": 580,
+        "exp_IBV": 2.98,
+        "IBV": 3.12,
+        "price": 580,
+        "online": true,
+        "done": true,
+        "customer": {
+            "媽媽": {
+                "delivery_date": "2020-11-31",
+                "price": 580,
+                "exp_price": 580,
+                "product": "葡萄籽油"
+            }
+        }
+    },
+    {
+        "date": "2020-11-11",
+        "store": "hotels.com",
+        "cost": 1297,
+        "exp_IBV": 2.16,
+        "IBV": 2.28,
+        "price": 0,
+        "online": true,
+        "done": true,
+        "customer": {
+            "艾利森": {
+                "delivery_date": "",
+                "price": 0,
+                "exp_price": 0,
+                "product": "台中住宿"
+            }
+        }
+    },
+    {
+        "date": "2020-11-18",
+        "store": "怡客咖啡",
+        "exp_IBV": 0.22,
+        "IBV": 0.23,
+        "online": false,
+        "done": true
+    },
+    {
+        "date": "2020-11-18",
+        "store": "MBM",
+        "cost": 1200,
+        "exp_IBV": 15.4,
+        "IBV": 16.19,
+        "price": 1200,
+        "online": true,
+        "done": true,
+        "customer": {
+            "媽媽": {
+                "delivery_date": "2020-11-31",
+                "price": 1200,
+                "exp_price": 1200,
+                "product": "地墊"
+            }
+        }
+    },
+    {
+        "date": "2020-11-18",
+        "store": "家樂福",
+        "cost": 559,
+        "exp_IBV": 0.93,
+        "IBV": 0.98,
+        "price": 349,
+        "online": true,
+        "done": true,
+        "customer": {
+            "媽媽": {
+                "delivery_date": "2020-11-31",
+                "price": 238,
+                "exp_price": 238,
+                "product": "中性洗衣精"
+            },
+            "妹妹": {
+                "delivery_date": "2020-11-31",
+                "price": 111,
+                "exp_price": 111,
+                "product": "立可帶"
+            },
+            "艾利森": {
+                "delivery_date": "",
+                "price": 0,
+                "exp_price": 0,
+                "product": "零食"
+            }
+        }
+    },
+    {
+        "date": "2020-11-20",
+        "store": "epayless",
+        "cost": 547,
+        "exp_IBV": 0.91,
+        "IBV": 0.96,
+        "price": 298,
+        "online": true,
+        "done": true,
+        "customer": {
+            "漢克": {
+                "delivery_date": "2020-11-27",
+                "price": 298,
+                "exp_price": 298,
+                "product": "HDMI"
+            },
+            "艾利森": {
+                "delivery_date": "",
+                "price": 0,
+                "exp_price": 0,
+                "product": "行動電源殼"
+            }
+        }
+    },
+    {
+        "date": "2020-11-22",
+        "store": "Friday購物-5%",
+        "cost": 396,
+        "exp_IBV": 0.66,
+        "IBV": 0.69,
+        "price": 0,
+        "online": true,
+        "done": true,
+        "customer": {
+            "艾利森": {
+                "delivery_date": "",
+                "price": 0,
+                "exp_price": 0,
+                "product": "透明水壺"
+            }
+        }
+    },
+    {
+        "date": "2020-11-26",
+        "store": "怡客咖啡",
+        "exp_IBV": 0.16,
+        "IBV": 0.17,
+        "online": false,
+        "done": true
+    },
+    {
+        "date": "2020-11-26",
+        "store": "大大生活館",
+        "cost": 2600,
+        "exp_IBV": 10.49,
+        "IBV": 11.04,
+        "price": 2600,
+        "online": true,
+        "done": true,
+        "customer": {
+            "櫻花阿姨": {
+                "delivery_date": "2020-11-27",
+                "price": 2600,
+                "exp_price": 2600,
+                "product": "Brita濾芯"
+            }
+        }
+    },
+    {
+        "date": "2020-11-27",
+        "store": "葒月",
+        "cost": 1099,
+        "exp_IBV": 4.03,
+        "IBV": 4.24,
+        "price": 1099,
+        "online": true,
+        "done": true,
+        "customer": {
+            "Rebecca阿姨": {
+                "delivery_date": "2020-11-27",
+                "price": 1099,
+                "exp_price": 1099,
+                "product": "雞湯組合"
+            }
+        }
+    },
+    {
+        "date": "2020-12-01",
+        "store": "這一鍋",
+        "exp_IBV": 6.38,
+        "IBV": 6.70,
+        "online": false,
+        "done": true
+    },
+    {
+        "date": "2020-12-02",
+        "store": "Mom Food",
+        "exp_IBV": 2.72,
+        "IBV": 2.85,
+        "online": false,
+        "done": true
+    },
+    {
+        "date": "2020-12-05",
+        "store": "ihergo",
+        "cost": 5132,
+        "exp_IBV": 11.97,
+        "IBV": 12.74,
+        "price": 5132,
+        "online": true,
+        "done": true,
+        "customer": {
+            "媽媽": {
+                "delivery_date": "2020-12-31",
+                "price": 961,
+                "exp_price": 961,
+                "product": "麻油猴頭菇"
+            },
+            "惠鴻阿姨": {
+                "delivery_date": "2020-12-05",
+                "price": 535,
+                "exp_price": 535,
+                "product": "麻油猴頭菇"
+            },
+            "椒如阿姨": {
+                "delivery_date": "2020-12-07",
+                "price": 961,
+                "exp_price": 961,
+                "product": "麻油猴頭菇"
+            },
+            "櫻花阿姨": {
+                "delivery_date": "2020-12-05",
+                "price": 535,
+                "exp_price": 535,
+                "product": "麻油猴頭菇"
+            },
+            "翠英阿姨": {
+                "delivery_date": "2020-12-06",
+                "price": 535,
+                "exp_price": 535,
+                "product": "麻油猴頭菇"
+            },
+            "Rebecca阿姨": {
+                "delivery_date": "2020-12-06",
+                "price": 535,
+                "exp_price": 535,
+                "product": "麻油猴頭菇"
+            },
+            "魏媽媽": {
+                "delivery_date": "2020-12-08",
+                "price": 535,
+                "exp_price": 535,
+                "product": "麻油猴頭菇"
+            },
+            "含爸": {
+                "delivery_date": "2020-12-14",
+                "price": 535,
+                "exp_price": 535,
+                "product": "麻油猴頭菇"
+            }
+        }
+    },
+    {
+        "date": "2020-12-10",
+        "store": "生活市集",
+        "cost": 1098,
+        "exp_IBV": 2.56,
+        "IBV": 2.72,
+        "price": 1100,
+        "online": true,
+        "done": true,
+        "customer": {
+            "櫻花阿姨": {
+                "delivery_date": "2020-12-10",
+                "price": 550,
+                "exp_price": 550,
+                "product": "陳聰明砂鍋魚頭"
+            },
+            "Rebecca阿姨": {
+                "delivery_date": "2020-12-10",
+                "price": 550,
+                "exp_price": 550,
+                "product": "陳聰明砂鍋魚頭"
+            }
+        }
+    },
+    {
+        "date": "2020-12-10",
+        "store": "ihergo",
+        "cost": 6032,
+        "exp_IBV": 14.07,
+        "IBV": 14.96,
+        "price": 6032,
+        "online": true,
+        "done": true,
+        "customer": {
+            "媽媽": {
+                "delivery_date": "2020-12-31",
+                "price": 1508,
+                "exp_price": 1508,
+                "product": "林聰明砂鍋魚頭"
+            },
+            "魏媽媽": {
+                "delivery_date": "2020-12-19",
+                "price": 1508,
+                "exp_price": 1508,
+                "product": "林聰明砂鍋魚頭"
+            },
+            "卿攻阿姨": {
+                "delivery_date": "2020-12-19",
+                "price": 1508,
+                "exp_price": 1508,
+                "product": "林聰明砂鍋魚頭"
+            },
+            "麗芬阿姨": {
+                "delivery_date": "2020-12-19",
+                "price": 1508,
+                "exp_price": 1508,
+                "product": "林聰明砂鍋魚頭"
+            }
+        }
+    },
+    {
+        "date": "2020-12-14",
+        "store": "葒月",
+        "cost": 1099,
+        "exp_IBV": 4.03,
+        "IBV": 4.29,
+        "price": 1099,
+        "online": true,
+        "done": true,
+        "customer": {
+            "Rebecca阿姨": {
+                "delivery_date": "2020-12-15",
+                "price": 1099,
+                "exp_price": 1099,
+                "product": "雞湯組合"
+            }
+        }
+    },
+    {
+        "date": "2020-12-15",
+        "store": "鮮食加",
+        "cost": 4140,
+        "exp_IBV": 15.18,
+        "IBV": 16.2,
+        "price": 4140,
+        "online": true,
+        "done": true,
+        "customer": {
+            "椒如阿姨": {
+                "delivery_date": "2020-12-15",
+                "price": 828,
+                "exp_price": 828,
+                "product": "月亮蝦餅"
+            },
+            "善美阿姨": {
+                "delivery_date": "2020-12-19",
+                "price": 828,
+                "exp_price": 828,
+                "product": "月亮蝦餅"
+            },
+            "美攻阿姨": {
+                "delivery_date": "2020-12-19",
+                "price": 828,
+                "exp_price": 828,
+                "product": "月亮蝦餅"
+            },
+            "汝玲老師": {
+                "delivery_date": "2020-12-19",
+                "price": 828,
+                "exp_price": 828,
+                "product": "月亮蝦餅"
+            },
+            "魏媽媽": {
+                "delivery_date": "2020-12-19",
+                "price": 828,
+                "exp_price": 828,
+                "product": "月亮蝦餅"
+            }
+        }
+    },
+    {
+        "date": "2020-12-31",
+        "store": "達美樂",
+        "exp_IBV": 0.97,
+        "IBV": 1.02,
+        "online": false,
+        "done": true
+    },
+    {
+        "date": "2021-01-01",
+        "store": "築地一番鮮",
+        "cost": 5693,
+        "exp_IBV": 20.87,
+        "IBV": 22.28,
+        "price": 6299,
+        "online": true,
+        "done": true,
+        "customer": {
+            "麗華阿姨": {
+                "delivery_date": "2021-01-08",
+                "price": 450,
+                "exp_price": 450,
+                "product": "佛跳牆"
+            },
+            "麗琴阿姨": {
+                "delivery_date": "2021-01-07",
+                "price": 450,
+                "exp_price": 450,
+                "product": "佛跳牆"
+            },
+            "游曼阿姨": {
+                "delivery_date": "2021-01-08",
+                "price": 450,
+                "exp_price": 450,
+                "product": "佛跳牆"
+            },
+            "君瑜阿姨": {
+                "delivery_date": "2021-01-08",
+                "price": 450,
+                "exp_price": 450,
+                "product": "佛跳牆"
+            },
+            "汝玲老師": {
+                "delivery_date": "2021-01-07",
+                "price": 450,
+                "exp_price": 450,
+                "product": "佛跳牆"
+            },
+            "淑貞阿姨": {
+                "delivery_date": "2021-01-08",
+                "price": 450,
+                "exp_price": 450,
+                "product": "佛跳牆"
+            },
+            "美攻阿姨": {
+                "delivery_date": "2021-01-07",
+                "price": 450,
+                "exp_price": 450,
+                "product": "佛跳牆"
+            },
+            "麗卿阿姨": {
+                "delivery_date": "2021-01-07",
+                "price": 450,
+                "exp_price": 450,
+                "product": "佛跳牆"
+            },
+            "雅貞阿姨": {
+                "delivery_date": "2021-01-07",
+                "price": 450,
+                "exp_price": 450,
+                "product": "佛跳牆"
+            },
+            "椒如阿姨": {
+                "delivery_date": "2021-01-07",
+                "price": 450,
+                "exp_price": 450,
+                "product": "佛跳牆"
+            },
+            "櫻花阿姨": {
+                "delivery_date": "2021-01-07",
+                "price": 450,
+                "exp_price": 450,
+                "product": "佛跳牆"
+            },
+            "魏媽媽": {
+                "delivery_date": "2021-01-07",
+                "price": 450,
+                "exp_price": 450,
+                "product": "佛跳牆"
+            },
+            "Migo": {
+                "delivery_date": "",
+                "price": 899,
+                "exp_price": 899,
+                "product": "佛跳牆"
+            }
+        }
+    },
+    {
+        "date": "2021-01-05",
+        "store": "遠傳",
+        "cost": 0,
+        "exp_IBV": 43.91,
+        "IBV": 0,
+        "price": 0,
+        "online": true,
+        "done": true,
+        "customer": {
+            "妹妹": {
+                "delivery_date": "",
+                "price": 0,
+                "exp_price": 0,
+                "product": "電信2年"
+            }
+        }
+    },
+    {
+        "date": "2021-01-07",
+        "store": "築地一番鮮",
+        "cost": 0,
+        "exp_IBV": 3.30,
+        "IBV": 3.53,
+        "price": 0,
+        "online": true,
+        "done": true,
+        "customer": {
+            "雅貞阿姨": {
+                "delivery_date": "",
+                "price": 0,
+                "exp_price": 0,
+                "product": "佛跳牆"
+            }
+        }
+    },
+    {
+        "date": "2021-01-09",
+        "store": "築地一番鮮",
+        "cost": 0,
+        "exp_IBV": 10.58,
+        "IBV": 11.33,
+        "price": 0,
+        "online": true,
+        "done": true,
+        "customer": {
+            "小舅舅": {
+                "delivery_date": "",
+                "price": 0,
+                "exp_price": 0,
+                "product": "年菜們"
+            }
+        }
+    },
+    {
+        "date": "2021-01-09",
+        "store": "生活市集",
+        "cost": 0,
+        "exp_IBV": 16.31,
+        "IBV": 17.46,
+        "price": 0,
+        "online": true,
+        "done": true,
+        "customer": {
+            "小舅舅": {
+                "delivery_date": "",
+                "price": 0,
+                "exp_price": 0,
+                "product": "禾聯冷凍櫃"
+            }
+        }
+    },
+    {
+        "date": "2021-01-12",
+        "store": "ihergo",
+        "cost": 961,
+        "exp_IBV": 2.24,
+        "IBV": 2.40,
+        "price": 1000,
+        "online": true,
+        "done": true,
+        "customer": {
+            "美玲阿姨": {
+                "delivery_date": "2021-01-15",
+                "price": 1000,
+                "exp_price": 961,
+                "product": "麻油猴頭菇"
+            }
+        }
+    },
+    {
+        "date": "2021-01-13",
+        "store": "民視",
+        "cost": 1198,
+        "exp_IBV": 4.39,
+        "IBV": 0,
+        "price": 1198,
+        "online": true,
+        "done": true,
+        "customer": {
+            "椒如阿姨": {
+                "delivery_date": "2020-01-20",
+                "price": 599,
+                "exp_price": 599,
+                "product": "爆爆褲"
+            },
+            "魏媽媽": {
+                "delivery_date": "2020-01-20",
+                "price": 599,
+                "exp_price": 599,
+                "product": "爆爆褲"
+            }
+        }
+    },
+    {
+        "date": "2021-01-15",
+        "store": "康那香",
+        "cost": 1460,
+        "exp_IBV": 4.73,
+        "IBV": 5.06,
+        "price": 1457,
+        "online": true,
+        "done": true,
+        "customer": {
+            "魏媽媽": {
+                "delivery_date": "2020-01-20",
+                "price": 971,
+                "exp_price": 971,
+                "product": "口罩"
+            },
+            "媽媽": {
+                "delivery_date": "2021-02-03",
+                "price": 486,
+                "exp_price": 486,
+                "product": "口罩"
+            }
+        }
+    },
+    {
+        "date": "2021-01-17",
+        "store": "人生販賣所",
+        "cost": 1259,
+        "exp_IBV": 18.47,
+        "IBV": 19.78,
+        "price": 499,
+        "online": true,
+        "done": true,
+        "customer": {
+            "艾利森": {
+                "delivery_date": "",
+                "price": 0,
+                "exp_price": 0,
+                "product": "媽媽圍巾, 素Ｔ"
+            },
+            "惠鴻阿姨": {
+                "delivery_date": "2021-01-24",
+                "price": 499,
+                "exp_price": 499,
+                "product": "圍巾"
+            }
+        }
+    },
+    {
+        "date": "2021-01-19",
+        "store": "怡客咖啡",
+        "exp_IBV": 0.50,
+        "IBV": 0,
+        "online": false,
+        "done": true
+    },
+    {
+        "date": "2021-01-20",
+        "store": "怡客咖啡",
+        "exp_IBV": 0.79,
+        "IBV": 0,
+        "online": false,
+        "done": true
+    },
+    {
+        "date": "2021-01-20",
+        "store": "生活市集",
+        "cost": 3294,
+        "exp_IBV": 7.69,
+        "IBV": 8.23,
+        "price": 3299,
+        "online": true,
+        "done": true,
+        "customer": {
+            "媽媽": {
+                "delivery_date": "2021-02-03",
+                "price": 1098,
+                "exp_price": 1098,
+                "product": "原味*2, 辣味*3, 高粱辣*1"
+            },
+            "小舅舅": {
+                "delivery_date": "2021-01-23",
+                "price": 1100,
+                "exp_price": 1098,
+                "product": "原味*2, 辣味*2, 高粱原*1, 高粱辣*1"
+            },
+            "秀琴阿姨": {
+                "delivery_date": "2021-01-25",
+                "price": 550,
+                "exp_price": 549,
+                "product": "原味*1, 辣味*1, 高粱原味隨身包*1"
+            },
+            "櫻花阿姨": {
+                "delivery_date": "2021-01-24",
+                "price": 183,
+                "exp_price": 183,
+                "product": "高粱原味隨身包*1"
+            },
+            "椒如阿姨": {
+                "delivery_date": "2021-01-24",
+                "price": 183,
+                "exp_price": 183,
+                "product": "高粱原味隨身包*1"
+            },
+            "鼎丰": {
+                "delivery_date": "2021-01-24",
+                "price": 185,
+                "exp_price": 183,
+                "product": "辣味*1"
+            }
+        }
+    },
+    {
+        "date": "2021-02-01",
+        "store": "嚴選砥家",
+        "cost": 499,
+        "exp_IBV": 3.66,
+        "IBV": 3.92,
+        "price": 0,
+        "online": true,
+        "done": true,
+        "customer": {
+            "艾利森": {
+                "delivery_date": "",
+                "price": 0,
+                "exp_price": 0,
+                "product": "鬍子國王蛋捲"
+            }
+        }
+    },
+    {
+        "date": "2021-02-01",
+        "store": "Hakuna",
+        "cost": 1149,
+        "exp_IBV": 16.85,
+        "IBV": 0,
+        "price": 0,
+        "online": true,
+        "done": true,
+        "customer": {
+            "艾利森": {
+                "delivery_date": "",
+                "price": 0,
+                "exp_price": 0,
+                "product": "蛋捲"
+            }
+        }
+    },
+    {
+        "date": "2021-02-02",
+        "store": "韓流小舖",
+        "cost": 1559,
+        "exp_IBV": 9.15,
+        "IBV": 9.79,
+        "price": 1221,
+        "online": true,
+        "done": false,
+        "customer": {
+            "媽媽": {
+                "delivery_date": "2021-02-08",
+                "price": 0,
+                "exp_price": 338,
+                "product": "闊香瓶（小蒼蘭、甘菊薰衣草）"
+            },
+            "椒如阿姨": {
+                "delivery_date": "2021-02-08",
+                "price": 169,
+                "exp_price": 169,
+                "product": "闊香瓶（甘菊薰衣草）"
+            },
+            "櫻花阿姨": {
+                "delivery_date": "2021-02-08",
+                "price": 338,
+                "exp_price": 338,
+                "product": "闊香瓶（小蒼蘭、甘菊薰衣草）"
+            },
+            "秀琴阿姨": {
+                "delivery_date": "2020-02-17",
+                "price": 357,
+                "exp_price": 357,
+                "product": "補充瓶（四月香、小蒼蘭、白茉莉）"
+            },
+            "Rebecca阿姨": {
+                "delivery_date": "2021-02-08",
+                "price": 357,
+                "exp_price": 357,
+                "product": "補充瓶（甘菊薰衣草、玫瑰香水、白茉莉）"
+            }
+        }
+    },
+    { 
+        "date": "2021-02-02",
+        "store": "怡客咖啡",
+        "exp_IBV": 0.43,
+        "IBV": 0,
+        "online": false,
+        "done": false
+    },
+    {
+        "date": "2021-02-09",
+        "store": "東南旅行社",
+        "exp_IBV": 3.76,
+        "IBV": 0,
+        "online": false,
+        "done": false
+    },
+    {
+        "date": "2021-02-14",
+        "store": "Friday購物-5%",
+        "cost": 945,
+        "exp_IBV": 1.58,
+        "IBV": 0.67,
+        "price": 950,
+        "online": true,
+        "done": true,
+        "customer": {
+            "斐琳阿姨": {
+                "delivery_date": "2020-02-16",
+                "price": 950,
+                "exp_price": 945,
+                "product": "小米手環5"
+            }
+        }
+    },
+    {
+        "date": "2021-02-17",
+        "store": "生活市集",
+        "cost": 332,
+        "exp_IBV": 0.78,
+        "IBV": 0.83,
+        "price": 332,
+        "online": true,
+        "done": true,
+        "customer": {
+            "漢克": {
+                "delivery_date": "2021-02-21",
+                "price": 0,
+                "exp_price": 332,
+                "product": "咖啡過濾器"
+            }
+        }
+    },
+    {
+        "date": "2021-02-20",
+        "store": "生活市集",
+        "cost": 469,
+        "exp_IBV": 1.09,
+        "IBV": 0,
+        "price": 469,
+        "online": true,
+        "done": false,
+        "customer": {
+            "秀琴阿姨": {
+                "delivery_date": "2020-02-20",
+                "price": 469,
+                "exp_price": 469,
+                "product": "衣物架"
+            }
+        }
+    },
+    {
+        "date": "2021-02-22",
+        "store": "尚青購",
+        "cost": 556,
+        "exp_IBV": 2.03,
+        "IBV": 2.19,
+        "price": 569,
+        "online": true,
+        "done": true,
+        "customer": {
+            "惠鴻阿姨": {
+                "delivery_date": "2020-02-22",
+                "price": 569,
+                "exp_price": 569,
+                "product": "年糕拉麵"
+            }
+        }
+    },
+    {
+        "date": "2021-02-22",
+        "store": "尚青購",
+        "cost": 556,
+        "exp_IBV": 2.03,
+        "IBV": 2.19,
+        "price": 0,
+        "online": true,
+        "done": false,
+        "customer": {
+            "媽媽": {
+                "delivery_date": "",
+                "price": 0,
+                "exp_price": 569,
+                "product": "年糕拉麵"
+            }
+        }
+    },
+    {
+        "date": "2021-02-22",
+        "store": "尚青購",
+        "cost": 556,
+        "exp_IBV": 2.03,
+        "IBV": 2.19,
+        "price": 569,
+        "online": true,
+        "done": true,
+        "customer": {
+            "昭玲媽媽": {
+                "delivery_date": "2021-02-23",
+                "price": 569,
+                "exp_price": 569,
+                "product": "年糕拉麵"
+            }
+        }
+    },
+    {
+        "date": "2021-02-22",
+        "store": "尚青購",
+        "cost": 556,
+        "exp_IBV": 2.03,
+        "IBV": 2.19,
+        "price": 0,
+        "online": true,
+        "done": false,
+        "customer": {
+            "林麗卿阿姨": {
+                "delivery_date": "",
+                "price": 0,
+                "exp_price": 569,
+                "product": "年糕拉麵"
+            }
+        }
+    },
+    {
+        "date": "2021-02-22",
+        "store": "尚青購",
+        "cost": 556,
+        "exp_IBV": 2.03,
+        "IBV": 2.19,
+        "price": 569,
+        "online": true,
+        "done": true,
+        "customer": {
+            "賴平容": {
+                "delivery_date": "2021-02-23",
+                "price": 569,
+                "exp_price": 569,
+                "product": "年糕拉麵"
+            }
+        }
+    },
+    {
+        "date": "2021-02-23",
+        "store": "松果購物",
+        "cost": 2303,
+        "exp_IBV": 4.6,
+        "IBV": 4.95,
+        "price": 0,
+        "online": true,
+        "done": false,
+        "customer": {
+            "媽媽": {
+                "delivery_date": "",
+                "price": 0,
+                "exp_price": 745,
+                "product": "福義軒蛋捲"
+            },
+            "小舅舅": {
+                "delivery_date": "2021-02-27",
+                "price": 800,
+                "exp_price": 779,
+                "product": "福義軒蛋捲"
+            },
+            "魏媽媽": {
+                "delivery_date": "2021-02-26",
+                "price": 779,
+                "exp_price": 779,
+                "product": "福義軒蛋捲"
+            }
+        }
+    },
+    { 
+        "date": "2021-02-23",
+        "store": "怡客咖啡",
+        "exp_IBV": 0.2,
+        "IBV": 0,
+        "online": false,
+        "done": false
+    },
+    { 
+        "date": "2021-02-24",
+        "store": "怡客咖啡",
+        "exp_IBV": 0.14,
+        "IBV": 0,
+        "online": false,
+        "done": false
+    },
+    {
+        "date": "2021-02-24",
+        "store": "松果購物",
+        "cost": 746,
+        "exp_IBV": 1.49,
+        "IBV": 1.61,
+        "price": 799,
+        "online": true,
+        "done": true,
+        "customer": {
+            "貓王": {
+                "delivery_date": "2021-02-24",
+                "price": 799,
+                "exp_price": 799,
+                "product": "福義軒蛋捲"
+            }
+        }
+    },
+    {
+        "date": "2021-02-24",
+        "store": "松果購物",
+        "cost": 746,
+        "exp_IBV": 1.49,
+        "IBV": 1.61,
+        "price": 799,
+        "online": true,
+        "done": true,
+        "customer": {
+            "淑貞阿姨": {
+                "delivery_date": "2021-02-24",
+                "price": 799,
+                "exp_price": 799,
+                "product": "福義軒蛋捲"
+            }
+        }
+    },
+    {
+        "date": "2021-02-25",
+        "store": "知覺優格",
+        "cost": 1389,
+        "exp_IBV": 5.09,
+        "IBV": 0,
+        "price": 1389,
+        "online": true,
+        "done": false,
+        "customer": {
+            "椒如阿姨": {
+                "delivery_date": "2021-02-26",
+                "price": 1389,
+                "exp_price": 1389,
+                "product": "優格飲20瓶"
+            }
+        }
+    },
+    {
+        "date": "2021-02-25",
+        "store": "知覺優格",
+        "cost": 1389,
+        "exp_IBV": 5.09,
+        "IBV": 0,
+        "price": 1389,
+        "online": true,
+        "done": false,
+        "customer": {
+            "玉棻阿姨": {
+                "delivery_date": "2021-02-26",
+                "price": 1389,
+                "exp_price": 1389,
+                "product": "優格飲20瓶"
+            }
+        }
+    },
+    {
+        "date": "2021-02-27",
+        "store": "陸霸王",
+        "cost": 1789,
+        "exp_IBV": 13.12,
+        "IBV": 14.12,
+        "price": 1789,
+        "online": true,
+        "done": true,
+        "customer": {
+            "簡美慧阿姨": {
+                "delivery_date": "2021-03-02",
+                "price": 1789,
+                "exp_price": 1789,
+                "product": "螃蟹三隻"
+            }
+        }
+    },
+    {
+        "date": "2021-02-27",
+        "store": "東南旅行社",
+        "exp_IBV": 0.59,
+        "IBV": 0,
+        "online": false,
+        "done": false
+    },
+    {
+        "date": "2021-03-01",
+        "store": "特力屋",
+        "cost": 3280,
+        "exp_IBV": 6.56,
+        "IBV": 0,
+        "price": 0,
+        "online": true,
+        "done": false,
+        "customer": {
+            "媽媽": {
+                "delivery_date": "",
+                "price": 640,
+                "exp_price": 3116,
+                "product": "鍋子"
+            }
+        }
+    },
+    {
+        "date": "2021-03-02",
+        "store": "松果購物",
+        "cost": 861,
+        "exp_IBV": 1.72,
+        "IBV": 0,
+        "price": 0,
+        "online": true,
+        "done": false,
+        "customer": {
+            "媽媽": {
+                "delivery_date": "2021-03-02",
+                "price": 861,
+                "exp_price": 861,
+                "product": "平底鍋"
+            }
+        }
+    },
+    {
+        "date": "2021-03-02",
+        "store": "松果購物",
+        "cost": 303,
+        "exp_IBV": 0.61,
+        "IBV": 0,
+        "price": 0,
+        "online": true,
+        "done": false,
+        "customer": {
+            "映樺阿姨": {
+                "delivery_date": "2021-03-02",
+                "price": 303,
+                "exp_price": 303,
+                "product": "洗衣機清潔劑"
+            }
+        }
+    },
+    {
+        "date": "2021-03-03",
+        "store": "築地一番鮮",
+        "cost": 1249,
+        "exp_IBV": 4.58,
+        "IBV": 4.93,
+        "price": 0,
+        "online": true,
+        "done": false,
+        "customer": {
+            "媽媽": {
+                "delivery_date": "",
+                "price": 0,
+                "exp_price": 1249,
+                "product": "鯖魚20條"
+            }
+        }
+    },
+    {
+        "date": "2021-03-03",
+        "store": "築地一番鮮",
+        "cost": 1249,
+        "exp_IBV": 4.58,
+        "IBV": 4.93,
+        "price": 1249,
+        "online": true,
+        "done": false,
+        "customer": {
+            "婆婆": {
+                "delivery_date": "2021-03-03",
+                "price": 1249,
+                "exp_price": 1249,
+                "product": "鯖魚20條"
+            }
+        }
+    }
+]
