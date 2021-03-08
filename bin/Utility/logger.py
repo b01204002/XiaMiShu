@@ -1,7 +1,7 @@
 # coding=utf-8
 
-from Utility.LittleTool import path_join
-from Utility.Singleton import Singleton
+from LittleTool import path_join
+from Singleton import Singleton
 from logging import handlers
 import logging
 

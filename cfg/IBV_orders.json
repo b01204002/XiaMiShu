@@ -3263,7 +3263,7 @@
             }
         }
     },
-    { 
+    {
         "date": "2021-02-23",
         "store": "怡客咖啡",
         "exp_IBV": 0.2,
@@ -3271,7 +3271,7 @@
         "online": false,
         "done": false
     },
-    { 
+    {
         "date": "2021-02-24",
         "store": "怡客咖啡",
         "exp_IBV": 0.14,
@@ -3382,7 +3382,7 @@
         "store": "特力屋",
         "cost": 3280,
         "exp_IBV": 6.56,
-        "IBV": 0,
+        "IBV": 7.06,
         "price": 0,
         "online": true,
         "done": false,
@@ -3400,12 +3400,12 @@
         "store": "松果購物",
         "cost": 861,
         "exp_IBV": 1.72,
-        "IBV": 0,
-        "price": 0,
+        "IBV": 1.86,
+        "price": 861,
         "online": true,
         "done": false,
         "customer": {
-            "媽媽": {
+            "櫻花阿姨": {
                 "delivery_date": "2021-03-02",
                 "price": 861,
                 "exp_price": 861,
@@ -3418,8 +3418,8 @@
         "store": "松果購物",
         "cost": 303,
         "exp_IBV": 0.61,
-        "IBV": 0,
-        "price": 0,
+        "IBV": 0.65,
+        "price": 303,
         "online": true,
         "done": false,
         "customer": {
@@ -3430,6 +3430,14 @@
                 "product": "洗衣機清潔劑"
             }
         }
+    },
+    {
+        "date": "2021-03-02",
+        "store": "怡客咖啡",
+        "exp_IBV": 0.14,
+        "IBV": 0,
+        "online": false,
+        "done": false
     },
     {
         "date": "2021-03-03",
@@ -3466,5 +3474,13 @@
                 "product": "鯖魚20條"
             }
         }
+    },
+    {
+        "date": "2021-03-05",
+        "store": "怡客咖啡",
+        "exp_IBV": 0.14,
+        "IBV": 0,
+        "online": false,
+        "done": false
     }
 ]

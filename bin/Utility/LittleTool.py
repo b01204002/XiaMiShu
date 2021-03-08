@@ -1,4 +1,4 @@
-from Utility.EncodingTest import OpenFile
+from EncodingTest import OpenFile
 import os
 import json
 

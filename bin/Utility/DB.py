@@ -1,8 +1,8 @@
 # coding=utf-8
 
-from Utility.LittleTool import path_join
-from Utility.Singleton import Singleton
-from Utility.logger import initial_log
+from LittleTool import path_join
+from Singleton import Singleton
+from logger import initial_log
 from datetime import datetime, timedelta
 from threading import Lock
 import sqlite3
@@ -159,7 +159,7 @@ class db_query(metaclass=Singleton):
 
         return
 
-    def insert_IBV_ordder(self):
+    def insert_IBV_order(self):
         pass
 
 if __name__ == '__main__':
