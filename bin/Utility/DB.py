@@ -1,8 +1,8 @@
 # coding=utf-8
 
-from LittleTool import path_join
-from Singleton import Singleton
-from logger import initial_log
+from bin.Utility.LittleTool import path_join
+from bin.Utility.Singleton import Singleton
+from bin.Utility.logger import initial_log
 from datetime import datetime, timedelta
 from threading import Lock
 import sqlite3
@@ -104,7 +104,7 @@ class db_query(metaclass=Singleton):
         q = self._execute_query(query, action=SELECT)
         if not q:
             return [0]
-        return q[0]
+        return q[0][0]
 
     def select_BV_info(self, name):
         idx = 0
@@ -127,7 +127,7 @@ class db_query(metaclass=Singleton):
             f"VALUES ({BV_order_idx}, {BV_product_idx}, {amount}, \'{details}\');"
         return self._execute_query(query, action=INSERT)
 
-    def insert_BV_order(self, customer_idx:int, order_date:str, purchase_date:str, delivery_date:str, products:dict, cost:int, price:int):
+    def insert_BV_order_from_json(self, customer_idx:int, order_date:str, purchase_date:str, delivery_date:str, products:dict, cost:int, price:int):
         total_BV = 0
         total_cost = 0
         total_exp_price = 0
@@ -159,8 +159,80 @@ class db_query(metaclass=Singleton):
 
         return
 
-    def insert_IBV_order(self):
-        pass
+    def insert_BV_order(self, customer:str, order_date:str, purchase_date:str, products:list):
+        customer_idx = self.select_customer_idx(customer)
+        if not customer_idx:
+            self.logger.warning(f'No customer! name = {customer}')
+            return 0
+
+        total_BV = 0
+        total_cost = 0
+        total_exp_price = 0
+        products_list = []
+        for p in products:
+            p_name = p.get('product_name', '')
+            p_amount = p.get('amount', 1)
+            p_idx, p_BV, p_cost, p_exp_price = self.select_BV_info(p_name)
+            if not p_idx:
+                self.logger.warning(f'No product! name = {p_name}')
+                return 0
+            total_BV += p_BV * p_amount
+            total_cost += p_cost * p_amount
+            total_exp_price += p_exp_price * p_amount
+            products_list.append((p_idx, p_amount, p.get('detail', '')))
+
+        query = f"INSERT INTO BV_order (customer_idx, order_date, purchase_date, BV, cost, exp_price) " \
+            f"VALUES (\'{customer_idx}\', \'{order_date}\', \'{purchase_date}\',  \'{total_BV}\', \'{total_cost}\', \'{total_exp_price}\');"
+        q = self._execute_query(query, action=INSERT)
+        if not q:
+            self.logger.error(f'insert_BV_order failed!')
+            return 0
+
+        for p in products_list:
+            q = self.insert_BV_order_product(q[0], p[0], p[1], p[2])
+            if not q:
+                self.logger.warning('insert_BV_order_product failed.')
+
+        self.logger.debug(f'insert_BV_order done: customer={customer}, order_date={order_date}')
+        return
+
+    def select_IBV_store(self, name:str):
+        query = f"SELECT IBV_store_idx FROM IBV_store_nickname WHERE nick_name == \'{name}\'"
+        q = self._execute_query(query, action=SELECT)
+        if not q:
+            return 0
+        return q[0][0]
+
+    def insert_IBV_purchase(self, IBV_store:str, date:str, cost:int, exp_IBV:float, IBV:float, product:str):
+        IBV_store_idx = self.select_IBV_store(IBV_store)
+        if not IBV_store_idx:
+            self.logger.warning(f'No IBV_store! IBV_store = {IBV_store}')
+            return 0
+
+        query = f"INSERT INTO IBV_purchase (IBV_store_idx, purchase_date, product, cost, exp_IBV, IBV) " \
+            f"VALUES (\'{IBV_store_idx}\', \'{date}\', \'{product}\',  \'{cost}\', \'{exp_IBV}\', \'{IBV}\');"
+        q = self._execute_query(query, action=INSERT)
+        if not q:
+            self.logger.error(f'insert_IBV_purchase failed!')
+            return 0
+        self.logger.debug(f'insert_IBV_purchase done: IBV_store={IBV_store}, purchase_date={date}')
+        return q[0]
+
+    def insert_IBV_order(self, IBV_purchase_idx:int, customer:str, product:str, delivery_date:str, exp_price:int, price:int):
+        customer_idx = self.select_customer_idx(customer)
+        if not customer_idx:
+            self.logger.warning(f'No customer! name = {customer}')
+            return 0
+
+        query = f"INSERT INTO IBV_order (IBV_purchase_idx, customer_idx, product, delivery_date, exp_price, price) " \
+            f"VALUES (\'{IBV_purchase_idx}\', \'{customer_idx}\', \'{product}\',  \'{delivery_date}\', \'{exp_price}\', \'{price}\');"
+        q = self._execute_query(query, action=INSERT)
+        if not q:
+            self.logger.error(f'insert_IBV_order failed!')
+            return 0
+        self.logger.debug(f'insert_IBV_order done: customer={customer}, delivery_date={delivery_date}')
+        return q[0]
+
 
 if __name__ == '__main__':
     db_path = path_join('db', 'XiaMiShu.db')

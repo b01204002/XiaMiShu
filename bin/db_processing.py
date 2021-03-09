@@ -70,8 +70,52 @@ def insert_BV_order():
             cost = o_item.get('cost', 0)
             price = o_item.get('price', 0)
             products = o_item.get('products', dict())
-            d.insert_BV_order(customer_idx[0], order_date, purchase_date, delivery_date, products, cost, price)
+            d.insert_BV_order_from_json(customer_idx[0], order_date, purchase_date, delivery_date, products, cost, price)
+
+def insert_IBV_order():
+    IBV_order = read_json(path_join('cfg', 'IBV_orders.json'))
+    for data in IBV_order:
+        IBV_store = data.get('store', '')
+        date = data.get('date', '')
+        cost = data.get('cost', 0)
+        exp_IBV = data.get('exp_IBV', 0.0)
+        IBV = data.get('IBV', 0.0)
+        product = ''
+        for c, item in data.get('customer', dict()).items():
+            p = item.get('product', '')
+            if p != product:
+                product = p
+
+        IBV_purchase_idx = d.insert_IBV_purchase(IBV_store, date, cost, exp_IBV, IBV, product)
+
+        for customer, item in data.get('customer', dict()).items():
+            p = item.get('product', '')
+            date = item.get('delivery_date', '')
+            price = item.get('price', 0)
+            exp_price = item.get('exp_price', 0)
+            IBV_order_idx = d.insert_IBV_order(IBV_purchase_idx, customer, p, date, exp_price, price)
+
 
 
 if __name__ == '__main__':
-    insert_BV_order()
+    insert_IBV_order()
+    a = {
+        "date": "2021-03-09",
+        "store": "CHEERSPOPS",
+        "cost": 699,
+        "exp_IBV": 5.13,
+        "IBV": 0,
+        "customer": {
+            "賴平容": {
+                "delivery_date": "2021-03-09",
+                "price": 699,
+                "exp_price": 699,
+                "product": "葡萄蒟蒻凍"
+            }
+        }
+    }
+
+    # 檢查有沒有商店
+    # insert_IBV_purchase
+    # 檢查有沒有顧客名
+    # insert_IBV_order
