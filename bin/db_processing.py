@@ -2,6 +2,7 @@
 
 from Utility.LittleTool import path_join, read_json
 from Utility.DB import db_query
+from datetime import datetime
 
 db_path = path_join('db', 'XiaMiShu.db')
 d = db_query(db_path)
@@ -15,107 +16,54 @@ OPERATION_TYPE = {
     '新人加盟': '新人加盟'
 }
 
-def insert_operation():
-    operation = read_json(path_join('cfg', 'operation.json'))
-    for o_item in operation:
-        name = o_item.get('name', '')
-        date = o_item.get('date', '')
-        cost = o_item.get('cost', 0)
-        price = o_item.get('price', 0)
-        type = '產品課'
-        for o_name, o_type in OPERATION_TYPE.items():
-            if o_name in name:
-                type = o_type
-        d.insert_operation(date, name, type, cost, price)
+def insert_operation(name:str, date='', cost=0, price=0):
+    if not date:
+        date = datetime.now().strftime('%Y-%m-%d')
+    type = '產品課'
+    for o_name, o_type in OPERATION_TYPE.items():
+        if o_name in name:
+            type = o_type
+    operation_idx = d.insert_operation(date, name, type, cost, price)
 
-def insert_customer():
-    customer = read_json(path_join('cfg', 'customers.json'))
-    for name, c_item in customer.items():
-        nick_name = c_item.get('nick_name', [])
-        phone = c_item.get('phone', '')
-        address = c_item.get('address', '')
-        postal_code = c_item.get('postal_code', '')
-        birthday = c_item.get('birthday', '')
-        d.insert_customer(name, nick_name, birthday, phone, address, postal_code)
+def insert_customer(name:str, nick_name=[], phone='', address='', postal_code='', birthday=''):
+    customer_idx = d.insert_customer(name, nick_name, birthday, phone, address, postal_code)
 
-def insert_BV_product():
-    BV_product = read_json(path_join('cfg', 'BV_products.json'))
-    for name, BV_item in BV_product.items():
-        nick_name = BV_item.get('nick_name', [])
-        picture = BV_item.get('img', '')
-        cost = BV_item.get('cost', 0)
-        exp_price = BV_item.get('price', 0)
-        BV = BV_item.get('BV', 0)
-        if not (cost and exp_price and BV):
-            print(f'{name}, {cost}, {exp_price}, {BV}')
-        d.insert_BV_product(name, nick_name, picture, cost, exp_price, BV)
+def insert_BV_product(name:str, nick_name=[], picture='', cost=0, exp_price=0, BV=0.0):
+    BV_product_idx = d.insert_BV_product(name, nick_name, picture, cost, exp_price, BV)
 
-def insert_IBV_store():
-    IBV_store = read_json(path_join('cfg', 'IBV_stores.json'))
-    for name, s_item in IBV_store.items():
-        nick_name = s_item.get('nick_name', [])
-        IBV = s_item.get('IBV', 0.0)
-        if not IBV:
-            print(name, IBV)
-        d.insert_IBV_store(name, nick_name, IBV)
+def insert_IBV_store(name:str, IBV=0.0, online=True, nick_name=[]):
+    IBV_store_idx = d.insert_IBV_store(name, nick_name, IBV, online)
 
-def insert_BV_order():
-    BV_order = read_json(path_join('cfg', 'BV_orders.json'))
-    for BV_o in BV_order:
-        for customer_name, o_item in BV_o.get('customer', dict()).items():
-            customer_idx = d.select_customer_idx(customer_name)
-            order_date = BV_o.get('date', '')
-            purchase_date = BV_o.get('date', '')
-            delivery_date = o_item.get('delivery_date', '')
-            cost = o_item.get('cost', 0)
-            price = o_item.get('price', 0)
-            products = o_item.get('products', dict())
-            d.insert_BV_order_from_json(customer_idx[0], order_date, purchase_date, delivery_date, products, cost, price)
+def insert_BV_order(customer_name, products, order_date=''):
+    if not order_date:
+        order_date = datetime.now().strftime('%Y-%m-%d')
+    BV_order_idx = d.insert_BV_order(customer_name, order_date, products)
 
-def insert_IBV_order():
-    IBV_order = read_json(path_join('cfg', 'IBV_orders.json'))
-    for data in IBV_order:
-        IBV_store = data.get('store', '')
-        date = data.get('date', '')
-        cost = data.get('cost', 0)
-        exp_IBV = data.get('exp_IBV', 0.0)
-        IBV = data.get('IBV', 0.0)
-        product = ''
-        for c, item in data.get('customer', dict()).items():
-            p = item.get('product', '')
-            if p != product:
-                product = p
+def insert_IBV_order(store_name, product_name, cost, customer_info):
+    date = datetime.now().strftime('%Y-%m-%d')
+    IBV_purchase_idx = d.insert_IBV_purchase(store_name, date, cost, product_name)
+    if not IBV_purchase_idx:
+        return
 
-        IBV_purchase_idx = d.insert_IBV_purchase(IBV_store, date, cost, exp_IBV, IBV, product)
+    for info in customer_info:
+        customer = info.get('customer', '')
+        exp_price = info.get('exp_price', 0)
+        product = info.get('product', product_name)
+        IBV_order_idx = d.insert_IBV_order(IBV_purchase_idx, customer, product, exp_price)
 
-        for customer, item in data.get('customer', dict()).items():
-            p = item.get('product', '')
-            date = item.get('delivery_date', '')
-            price = item.get('price', 0)
-            exp_price = item.get('exp_price', 0)
-            IBV_order_idx = d.insert_IBV_order(IBV_purchase_idx, customer, p, date, exp_price, price)
+def update_IBV_purchase_IBV(IBV_purchase_idx, IBV):
+    d.update_IBV_purchase(IBV_purchase_idx, IBV)
+
+def update_IBV_order_price(IBV_order_idx, price):
+    date = datetime.now().strftime('%Y-%m-%d')
+    d.update_IBV_order(IBV_order_idx, date, price)
 
 
 
 if __name__ == '__main__':
-    insert_IBV_order()
-    a = {
-        "date": "2021-03-09",
-        "store": "CHEERSPOPS",
-        "cost": 699,
-        "exp_IBV": 5.13,
-        "IBV": 0,
-        "customer": {
-            "賴平容": {
-                "delivery_date": "2021-03-09",
-                "price": 699,
-                "exp_price": 699,
-                "product": "葡萄蒟蒻凍"
-            }
+    customer_info = [
+        {
+            'customer': '王派忠',
+            'exp_price': 699
         }
-    }
-
-    # 檢查有沒有商店
-    # insert_IBV_purchase
-    # 檢查有沒有顧客名
-    # insert_IBV_order
+    ]

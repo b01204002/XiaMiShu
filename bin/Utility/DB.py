@@ -89,8 +89,9 @@ class db_query(metaclass=Singleton):
             f"VALUES (\'{date}\', \'{type}\', \'{name}\', \'{cost}\', \'{price}\');"
         return self._execute_query(query, action=INSERT)
 
-    def insert_IBV_store(self, name:str, nick_name:list, IBV:float):
-        query = f"INSERT INTO IBV_store (name, IBV) VALUES (\'{name}\', \'{IBV}\');"
+    def insert_IBV_store(self, name:str, nick_name:list, IBV:float, online:bool):
+        online = int(online)
+        query = f"INSERT INTO IBV_store (name, IBV, online) VALUES (\'{name}\', \'{IBV}\', \'{int(online)}\');"
         IBV_store_idx = self._execute_query(query, action=INSERT)
 
         for nick in nick_name + [name]:
@@ -127,39 +128,7 @@ class db_query(metaclass=Singleton):
             f"VALUES ({BV_order_idx}, {BV_product_idx}, {amount}, \'{details}\');"
         return self._execute_query(query, action=INSERT)
 
-    def insert_BV_order_from_json(self, customer_idx:int, order_date:str, purchase_date:str, delivery_date:str, products:dict, cost:int, price:int):
-        total_BV = 0
-        total_cost = 0
-        total_exp_price = 0
-        products_list = []
-        for p in products:
-            p_name = p.get('product_name', '')
-            p_amount = p.get('amount', 1)
-            p_idx, p_BV, p_cost, p_exp_price = self.select_BV_info(p_name)
-            total_BV += p_BV * p_amount
-            total_cost += p_cost * p_amount
-            total_exp_price += p_exp_price * p_amount
-            products_list.append((p_idx, p_amount, p.get('detail', '')))
-
-        if total_cost != cost:
-            print(f'strange cost?! {order_date}, {products}, {cost}, {total_cost}')
-            return
-
-        if customer_idx > 3 and not delivery_date:
-            print(f'no price?! {order_date}, {customer_idx}')
-
-        query = f"INSERT INTO BV_order (customer_idx, order_date, purchase_date, delivery_date, BV, cost, exp_price, price) " \
-            f"VALUES (\'{customer_idx}\', \'{order_date}\', \'{purchase_date}\', \'{delivery_date}\', \'{total_BV}\', \'{cost}\', \'{total_exp_price}\', \'{price}\');"
-        q = self._execute_query(query, action=INSERT)
-        if not q:
-            return 0
-
-        for p in products_list:
-            self.insert_BV_order_product(q[0], p[0], p[1], p[2])
-
-        return
-
-    def insert_BV_order(self, customer:str, order_date:str, purchase_date:str, products:list):
+    def insert_BV_order(self, customer:str, order_date:str, products:list):
         customer_idx = self.select_customer_idx(customer)
         if not customer_idx:
             self.logger.warning(f'No customer! name = {customer}')
@@ -181,8 +150,8 @@ class db_query(metaclass=Singleton):
             total_exp_price += p_exp_price * p_amount
             products_list.append((p_idx, p_amount, p.get('detail', '')))
 
-        query = f"INSERT INTO BV_order (customer_idx, order_date, purchase_date, BV, cost, exp_price) " \
-            f"VALUES (\'{customer_idx}\', \'{order_date}\', \'{purchase_date}\',  \'{total_BV}\', \'{total_cost}\', \'{total_exp_price}\');"
+        query = f"INSERT INTO BV_order (customer_idx, order_date, BV, cost, exp_price) " \
+            f"VALUES (\'{customer_idx}\', \'{order_date}\', \'{total_BV}\', \'{total_cost}\', \'{total_exp_price}\');"
         q = self._execute_query(query, action=INSERT)
         if not q:
             self.logger.error(f'insert_BV_order failed!')
@@ -200,17 +169,25 @@ class db_query(metaclass=Singleton):
         query = f"SELECT IBV_store_idx FROM IBV_store_nickname WHERE nick_name == \'{name}\'"
         q = self._execute_query(query, action=SELECT)
         if not q:
-            return 0
-        return q[0][0]
+            return 0, 0.0
+        IBV_store_idx = q[0][0]
 
-    def insert_IBV_purchase(self, IBV_store:str, date:str, cost:int, exp_IBV:float, IBV:float, product:str):
-        IBV_store_idx = self.select_IBV_store(IBV_store)
+        query = f"SELECT IBV FROM IBV_store WHERE idx == {IBV_store_idx}"
+        q = self._execute_query(query, action=SELECT)
+        if not q:
+            return 0, 0.0
+        return IBV_store_idx, q[0][0]
+
+    def insert_IBV_purchase(self, IBV_store:str, date:str, cost:int, product:str):
+        IBV_store_idx, store_IBV = self.select_IBV_store(IBV_store)
         if not IBV_store_idx:
             self.logger.warning(f'No IBV_store! IBV_store = {IBV_store}')
             return 0
 
-        query = f"INSERT INTO IBV_purchase (IBV_store_idx, purchase_date, product, cost, exp_IBV, IBV) " \
-            f"VALUES (\'{IBV_store_idx}\', \'{date}\', \'{product}\',  \'{cost}\', \'{exp_IBV}\', \'{IBV}\');"
+        exp_IBV = cost / 30 * store_IBV / 100
+
+        query = f"INSERT INTO IBV_purchase (IBV_store_idx, purchase_date, product, cost, exp_IBV) " \
+            f"VALUES (\'{IBV_store_idx}\', \'{date}\', \'{product}\', \'{cost}\', \'{exp_IBV}\');"
         q = self._execute_query(query, action=INSERT)
         if not q:
             self.logger.error(f'insert_IBV_purchase failed!')
@@ -218,22 +195,86 @@ class db_query(metaclass=Singleton):
         self.logger.debug(f'insert_IBV_purchase done: IBV_store={IBV_store}, purchase_date={date}')
         return q[0]
 
-    def insert_IBV_order(self, IBV_purchase_idx:int, customer:str, product:str, delivery_date:str, exp_price:int, price:int):
+    def insert_IBV_order(self, IBV_purchase_idx:int, customer:str, product:str, exp_price:int):
         customer_idx = self.select_customer_idx(customer)
         if not customer_idx:
             self.logger.warning(f'No customer! name = {customer}')
             return 0
 
-        query = f"INSERT INTO IBV_order (IBV_purchase_idx, customer_idx, product, delivery_date, exp_price, price) " \
-            f"VALUES (\'{IBV_purchase_idx}\', \'{customer_idx}\', \'{product}\',  \'{delivery_date}\', \'{exp_price}\', \'{price}\');"
+        query = f"INSERT INTO IBV_order (IBV_purchase_idx, customer_idx, product, exp_price) " \
+            f"VALUES (\'{IBV_purchase_idx}\', \'{customer_idx}\', \'{product}\', \'{exp_price}\');"
         q = self._execute_query(query, action=INSERT)
         if not q:
             self.logger.error(f'insert_IBV_order failed!')
             return 0
-        self.logger.debug(f'insert_IBV_order done: customer={customer}, delivery_date={delivery_date}')
+        self.logger.debug(f'insert_IBV_order done: customer={customer} product={product}')
         return q[0]
+
+    def update_IBV_purchase(self, IBV_purchase_idx, IBV):
+        query = f"UPDATE IBV_purchase SET IBV={IBV} WHERE idx = \'{IBV_purchase_idx}\'"
+        return self._execute_query(query, action=UPDATE)
+
+    def update_IBV_order(self, IBV_order_idx, delivery_date, price):
+        query = f"UPDATE IBV_order SET delivery_date=\'{delivery_date}\', price={price}" \
+            f" WHERE idx = \'{IBV_order_idx}\'"
+        return self._execute_query(query, action=UPDATE)
+
+    def _get_BV_order_sum(self, start:str, end:str):
+        query = f'SELECT SUM(cost), SUM(price), SUM(BV) FROM BV_order WHERE purchase_date BETWEEN \"{start}\" AND \"{end}\"'
+        return self._execute_query(query, action=SELECT)[0]
+
+    def _get_BV_order_self_use_cost(self, start:str, end:str):
+        query = f'SELECT SUM(cost) FROM BV_order WHERE customer_idx < 4 AND purchase_date BETWEEN \"{start}\" AND \"{end}\"'
+        return self._execute_query(query, action=SELECT)[0][0]
+
+    def _get_IBV_purchase_sum(self, start, end):
+        query = f'SELECT SUM(cost), SUM(exp_IBV), SUM(IBV) FROM IBV_purchase WHERE purchase_date BETWEEN \"{start}\" AND \"{end}\"'
+        return self._execute_query(query, action=SELECT)[0]
+
+    def _get_IBV_order_sum(self, start, end):
+        query = f'SELECT SUM(IBV_order.exp_price), SUM(IBV_order.price) FROM IBV_purchase ' \
+            f'INNER JOIN IBV_order ON IBV_purchase.idx = IBV_order.IBV_purchase_idx ' \
+            f'WHERE IBV_purchase.purchase_date BETWEEN \"{start}\" AND \"{end}\"'
+        return self._execute_query(query, action=SELECT)[0]
+
+    def monthly_summary(self, year:int, month:int):
+        start = f'{year}-{month:02}-01'
+        end = f'{year}-{month+1:02}-01' if month < 12 else f'{year+1}-01-01'
+
+        BV_order_cost, BV_order_price, BV_order_BV = self._get_BV_order_sum(start, end)
+        BV_order_self_use_cost = self._get_BV_order_self_use_cost(start, end)
+
+        IBV_purchase_cost, IBV_purchase_exp_IBV, IBV_purchase_IBV = self._get_IBV_purchase_sum(start, end)
+        IBV_order_exp_price, IBV_order_price = self._get_IBV_order_sum(start, end)
+
+        summary = {
+            'BV': {
+                'self_use_cost': BV_order_self_use_cost,
+                'cost': BV_order_cost - BV_order_self_use_cost,
+                'price': BV_order_price,
+                'profit': BV_order_price - (BV_order_cost - BV_order_self_use_cost),
+                'BV': BV_order_BV
+            },
+            'IBV': {
+                'self_use_cost': IBV_purchase_cost - IBV_order_exp_price,
+                'cost': IBV_order_exp_price,
+                'price': IBV_order_price,
+                'profit': IBV_order_price - IBV_order_exp_price,
+                'exp_IBV': IBV_purchase_exp_IBV,
+                'IBV': IBV_purchase_IBV
+            },
+            'total': {
+                'self_use_cost': BV_order_self_use_cost + IBV_purchase_cost - IBV_order_exp_price,
+                'business_cost': BV_order_cost - BV_order_self_use_cost + IBV_order_exp_price,
+                'price': BV_order_price + IBV_order_price,
+                'profit': BV_order_price - (BV_order_cost - BV_order_self_use_cost) + IBV_order_price - IBV_order_exp_price
+            }
+        }
+        return summary
 
 
 if __name__ == '__main__':
     db_path = path_join('db', 'XiaMiShu.db')
     d = db_query(db_path)
+    r = d.monthly_summary(2021, 2)
+    print(r)
