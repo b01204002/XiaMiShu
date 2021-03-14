@@ -1,4 +1,7 @@
-from bin.Utility.EncodingTest import OpenFile
+try:
+    from bin.Utility.EncodingTest import OpenFile
+except:
+    from Utility.EncodingTest import OpenFile
 import os
 import json
 

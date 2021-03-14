@@ -1,8 +1,12 @@
 # coding=utf-8
-
-from bin.Utility.LittleTool import path_join
-from bin.Utility.Singleton import Singleton
-from bin.Utility.logger import initial_log
+try:
+    from bin.Utility.LittleTool import path_join
+    from bin.Utility.Singleton import Singleton
+    from bin.Utility.logger import initial_log
+except:
+    from Utility.LittleTool import path_join
+    from Utility.Singleton import Singleton
+    from Utility.logger import initial_log
 from datetime import datetime, timedelta
 from threading import Lock
 import sqlite3
@@ -237,13 +241,10 @@ class db_query(metaclass=Singleton):
             f'WHERE IBV_purchase.purchase_date BETWEEN \"{start}\" AND \"{end}\"'
         return self._execute_query(query, action=SELECT)[0]
 
-    def monthly_summary(self, year:int, month:int):
-        start = f'{year}-{month:02}-01'
-        end = f'{year}-{month+1:02}-01' if month < 12 else f'{year+1}-01-01'
-
+    def _get_order_summary(self, start, end):
         BV_order_cost, BV_order_price, BV_order_BV = self._get_BV_order_sum(start, end)
         BV_order_self_use_cost = self._get_BV_order_self_use_cost(start, end)
-
+        
         IBV_purchase_cost, IBV_purchase_exp_IBV, IBV_purchase_IBV = self._get_IBV_purchase_sum(start, end)
         IBV_order_exp_price, IBV_order_price = self._get_IBV_order_sum(start, end)
 
@@ -272,9 +273,34 @@ class db_query(metaclass=Singleton):
         }
         return summary
 
+    def monthly_order_summary(self, year:int, month:int):
+        start = f'{year}-{month:02}-01'
+        end = f'{year}-{month+1:02}-01' if month < 12 else f'{year+1}-01-01'
+        return self._get_order_summary(start, end)
+    
+    def quarterly_order_summary(self, year:int, quarter:int=0):
+        mapping = {
+            1: [1, 2, 3],
+            2: [4, 5, 6],
+            3: [7, 8, 9],
+            4: [10, 11, 12]
+        }
+        this_month = datetime.now().month
+        if not quarter or quarter > 4:
+            for q, m_list in mapping.items():
+                if this_month in m_list:
+                    quarter = q
+                    break 
+        start = f'{year}-{mapping[quarter][0]:02}-01'
+        end = f'{year}-{mapping[quarter][-1]:02}-01' if quarter != 4 else f'{year+1}-01-01'
+        return self._get_order_summary(start, end)
+        
+
 
 if __name__ == '__main__':
     db_path = path_join('db', 'XiaMiShu.db')
     d = db_query(db_path)
-    r = d.monthly_summary(2021, 2)
+    r = d.monthly_order_summary(2021, 1)
+    print(r)
+    r = d.quarterly_order_summary(2021, 1)
     print(r)
