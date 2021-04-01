@@ -61,12 +61,20 @@ def update_IBV_order_price(IBV_order_idx, price):
 
 
 if __name__ == '__main__':
-    insert_customer('陳文婉', ['陳婉婉'], '0937888481', '台北市中正區臨沂街63巷9號4樓', '110')
-    insert_IBV_store('普麗斯', 33.0)
+    # insert_customer('葉怡秀', ['辰勳媽媽'], '0931207236', '台北市內湖區康寧路一段195巷4弄1號3樓', '114')
+    # insert_IBV_store('普麗斯', 33.0)
     customer_info = [
-        {
-            'customer': '陳文婉',
-            'exp_price': 1250
+       {
+            'customer': '陳映樺',
+            'exp_price': 599
         }
     ]
-    insert_IBV_order('普麗斯', '牙齒美白7-9天', 1150, customer_info)
+    insert_IBV_order('怡客咖啡', '晚餐', 337, [])
+
+    # products = [
+    #     {
+    #         'product_name': '魚油',
+    #         'amount': 1
+    #     }
+    # ]
+    # insert_BV_order('媽媽', products)
