@@ -1,12 +1,8 @@
 # coding=utf-8
-try:
-    from bin.Utility.LittleTool import path_join
-    from bin.Utility.Singleton import Singleton
-    from bin.Utility.logger import initial_log
-except:
-    from Utility.LittleTool import path_join
-    from Utility.Singleton import Singleton
-    from Utility.logger import initial_log
+
+from Utility.LittleTool import path_join
+from Utility.Singleton import Singleton
+from Utility.logger import initial_log
 from datetime import datetime, timedelta
 from threading import Lock
 import sqlite3
@@ -22,7 +18,6 @@ class db_query(metaclass=Singleton):
         self.db_path = db_path
         self.conn = None
         self._locker = Lock()
-        self.last_date = None
 
     def connect_db(self):
         conn = sqlite3.connect(self.db_path, check_same_thread=False)
@@ -35,11 +30,7 @@ class db_query(metaclass=Singleton):
                 self.conn = None
 
     def _execute_query(self, query='', action=SELECT):
-        data = None
-        last_id = 0
-        if not query:
-            print(f'wrong query => {query}')
-            return False
+        data = []
         try:
             with self._locker:
                 if self.conn is None:
@@ -49,22 +40,77 @@ class db_query(metaclass=Singleton):
                     c.execute(query)
                     data = c.fetchall()
                     if action == INSERT:
-                        last_id = c.lastrowid
+                        data = [c.lastrowid]
                     if action != SELECT:
                         self.conn.commit()
+            self.close_connection()
 
         except BaseException as e:
             self.close_connection()
             self.logger.exception(f'While executing query:\n{query}\n'
                                   f'Other Exception:\n{e}')
-            return False
+            return False, []
+        return True, data
+    
+    def select_one(self, query):
+        if not query:
+            self.logger.warning(f'[select_one] query is empty!')
+            return False, 'query is empty'
+        
+        success, result = self._execute_query(query=query, action=SELECT)
+        if not success:
+            return False, 'query failed. query:\n{query}\n'
+        if len(result) == 0:
+            return False, 'no result!'
+        if len(result) > 1:
+            return False, 'too many result!'
+        return True, result[0]
 
-        self.close_connection()
+    def select_many(self, query):
+        if not query:
+            self.logger.warning(f'[select_many] query is empty!')
+            return False, 'query is empty'
+        
+        success, result = self._execute_query(query=query, action=SELECT)
+        if not success:
+            return False, f'query failed. query:\n{query}\n'
+        if len(result) == 0:
+            return False, 'no result!'
+        return True, result
 
-        if action == INSERT:
-            return [last_id] or []
-        else:
-            return data or []
+    def insert_one(self, query):
+        if not query:
+            self.logger.warning(f'[insert_one] query is empty!')
+            return False, 'query is empty'
+        success, result = self._execute_query(query=query, action=INSERT)
+        if not success:
+            return False, f'query failed. query:\n{query}\n'
+        return True, result[0]
+    
+    def update_one(self, query):
+        if not query:
+            self.logger.warning(f'[update_one] query is empty!')
+            return False, 'query is empty'
+        success, result = self._execute_query(query=query, action=UPDATE)
+        if not success:
+            return False, f'query failed. query:\n{query}\n'
+        return True, result
+    
+    def delete_one(self, query):
+        if not query:
+            self.logger.warning(f'[delete_one] query is empty!')
+            return False, 'query is empty'
+        success, result = self._execute_query(query=query, action=DELETE)
+        if not success:
+            return False, f'query failed. query:\n{query}\n'
+        return True, result
+
+
+
+
+
+
+
 
     def insert_BV_product(self, name:str, nick_name:list, picture:str, cost:int, exp_price:int, BV:float):
         query = f"INSERT INTO BV_product (name, picture, cost, exp_price, BV)" \
@@ -106,10 +152,10 @@ class db_query(metaclass=Singleton):
 
     def select_customer_idx(self, name):
         query = f"SELECT customer_idx FROM customer_nickname WHERE nick_name == \'{name}\'"
-        q = self._execute_query(query, action=SELECT)
+        q, idx = self._execute_query(query, action=SELECT)
         if not q:
             return [0]
-        return q[0][0]
+        return idx[0][0]
 
     def select_BV_info(self, name):
         idx = 0
@@ -117,12 +163,12 @@ class db_query(metaclass=Singleton):
         cost = 0
         exp_price = 0
         query = f"SELECT BV_product_idx FROM BV_product_nickname WHERE nick_name == \'{name}\'"
-        q = self._execute_query(query, action=SELECT)
+        success, q = self._execute_query(query, action=SELECT)
         if not q:
             return (idx, BV, cost, exp_price)
 
         query = f"SELECT idx, BV, cost, exp_price FROM BV_product WHERE idx == {q[0][0]}"
-        q = self._execute_query(query, action=SELECT)
+        success, q = self._execute_query(query, action=SELECT)
         if not q:
             return (idx, BV, cost, exp_price)
         return q[0]
@@ -300,7 +346,9 @@ class db_query(metaclass=Singleton):
 if __name__ == '__main__':
     db_path = path_join('db', 'XiaMiShu.db')
     d = db_query(db_path)
-    r = d.monthly_order_summary(2021, 1)
-    print(r)
-    r = d.quarterly_order_summary(2021, 1)
-    print(r)
+    # r = d.monthly_order_summary(2021, 1)
+    # print(r)
+    # r = d.quarterly_order_summary(2021, 1)
+    # print(r)
+
+    

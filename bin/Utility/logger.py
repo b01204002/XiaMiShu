@@ -1,11 +1,7 @@
 # coding=utf-8
 
-try:
-    from bin.Utility.LittleTool import path_join
-    from bin.Utility.Singleton import Singleton
-except:
-    from Utility.LittleTool import path_join
-    from Utility.Singleton import Singleton
+
+from Utility.LittleTool import path_join
 from logging import handlers
 import logging
 

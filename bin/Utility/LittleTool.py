@@ -1,7 +1,6 @@
-try:
-    from bin.Utility.EncodingTest import OpenFile
-except:
-    from Utility.EncodingTest import OpenFile
+# coding=utf-8
+
+from Utility.EncodingTest import OpenFile
 import os
 import json
 
