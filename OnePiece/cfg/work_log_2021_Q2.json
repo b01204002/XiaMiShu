@@ -1,0 +1,68 @@
+[
+    {
+        "user_id": "U6de1cf1fdbe388583353169eaa1af33b",
+        "date": "2021-05-08",
+        "item": "清單",
+        "amount": 1
+    },
+    {
+        "user_id": "U6de1cf1fdbe388583353169eaa1af33b",
+        "date": "2021-05-08",
+        "item": "IBV",
+        "amount": 7
+    },
+    {
+        "user_id": "U6de1cf1fdbe388583353169eaa1af33b",
+        "date": "2021-05-08",
+        "item": "群組",
+        "amount": 3
+    },
+    {
+        "user_id": "U6de1cf1fdbe388583353169eaa1af33c",
+        "date": "2021-05-08",
+        "item": "群組",
+        "amount": 8
+    },
+    {
+        "user_id": "U6de1cf1fdbe388583353169eaa1af33c",
+        "date": "2021-05-08",
+        "item": "BV",
+        "amount": 115
+    },
+    {
+        "user_id": "U6de1cf1fdbe388583353169eaa1af33d",
+        "date": "2021-05-08",
+        "item": "群組",
+        "amount": 5
+    },
+    {
+        "user_id": "U6de1cf1fdbe388583353169eaa1af33d",
+        "date": "2021-05-08",
+        "item": "清單",
+        "amount": 1
+    },
+    {
+        "user_id": "U6de1cf1fdbe388583353169eaa1af33b",
+        "date": "2021-05-09",
+        "item": "IBV",
+        "amount": 12
+    },
+    {
+        "user_id": "U6de1cf1fdbe388583353169eaa1af33b",
+        "date": "2021-05-09",
+        "item": "IBV",
+        "amount": 7
+    },
+    {
+        "user_id": "U6de1cf1fdbe388583353169eaa1af33b",
+        "date": "2021-05-09",
+        "item": "群組",
+        "amount": 3
+    },
+    {
+        "user_id": "U6de1cf1fdbe388583353169eaa1af33b",
+        "date": "2021-05-09",
+        "item": "IBV",
+        "amount": -8
+    }
+]
