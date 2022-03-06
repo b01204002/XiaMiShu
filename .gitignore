@@ -4,3 +4,4 @@ __pycache__
 .venv
 bin/Utility/__pycache__
 bin/linebot-326308-90b5647ebead.json
+cfg/cfg.dev.json
