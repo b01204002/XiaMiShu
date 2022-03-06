@@ -1,30 +1,46 @@
-from linebot import LineBotApi, WebhookParser
+from flask import Flask, request, abort, jsonify
+from linebot import LineBotApi, WebhookHandler
 from linebot.exceptions import InvalidSignatureError, LineBotApiError
-from linebot.models import MessageEvent, TextSendMessage
+from linebot.models import MessageEvent, TextSendMessage, TextMessage, FlexSendMessage
+from variables import line_channel
+from main import text_processor
 
-line_bot_api = LineBotApi('TZU3KV2zYK+C3Se3SKx5sRLznbn96lTfipO0VexQ6+sQg8tQu1wO2kI8yvsVHaYXxXe1LNHq7X1w2UpWecLkUm9t+E9aswvywiNndB2pMRufUIoVOQczZFNcABIUnBHEKzS7AavP1eAZDjrxwF0algdB04t89/1O/w1cDnyilFU=')
-parser = WebhookParser('7fe285a3ad113b8a7d3a59c8d60b70af')
+LINE_CHANNEL_SECRET = line_channel.get('LINE_CHANNEL_SECRET')
+LINE_CHANNEL_ACCESS_TOKEN = line_channel.get('LINE_CHANNEL_ACCESS_TOKEN')
+LINE_USER_ID = line_channel.get('LINE_USER_ID')
+
+app = Flask(__name__)
+line_bot_api = LineBotApi(LINE_CHANNEL_ACCESS_TOKEN)
+handler = WebhookHandler(LINE_CHANNEL_SECRET)
 
 
-@csrf_exempt
-def callback(request):
-    if request.method == 'POST':
-        signature = request.META['HTTP_X_LINE_SIGNATURE']
-        body = request.body.decode('utf-8')
+# 接收 LINE 的資訊
+@app.route("/callback", methods=['POST'])
+def callback():
+    signature = request.headers['X-Line-Signature']
+    body = request.get_data(as_text=True)
+    try:
+        handler.handle(body, signature)
 
-        try:
-            events = parser.parse(body, signature)  # 傳入的事件
-        except InvalidSignatureError:
-            return HttpResponseForbidden()
-        except LineBotApiError:
-            return HttpResponseBadRequest()
+    except InvalidSignatureError as e:
+        abort(400)
 
-        for event in events:
-            if isinstance(event, MessageEvent):  # 如果有訊息事件
-                line_bot_api.reply_message(  # 回復傳入的訊息文字
-                    event.reply_token,
-                    TextSendMessage(text=event.message.text)
-                )
-        return HttpResponse()
+    return 'OK'
+
+
+@handler.add(MessageEvent, message=TextMessage)
+def handle(event):
+    user_id = event.source.user_id
+    text = event.message.text
+    r_type, r_content = text_processor(user_id, text)
+    if r_type == 'text':
+        line_bot_api.reply_message(
+            event.reply_token,
+            TextSendMessage(text=r_content)
+        )
     else:
-        return HttpResponseBadRequest()
+        pass
+
+
+if __name__ == "__main__":
+    app.run()

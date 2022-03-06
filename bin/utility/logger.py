@@ -1,7 +1,7 @@
 # coding=utf-8
 
 
-from Utility.LittleTool import path_join
+from utility.little_tool import path_join
 from logging import handlers
 import logging
 

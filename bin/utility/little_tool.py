@@ -1,6 +1,5 @@
 # coding=utf-8
 
-from Utility.EncodingTest import OpenFile
 import os
 import json
 
@@ -12,10 +11,10 @@ def path_join(*args):
     return path_
 
 def read_json(path):
-    with OpenFile(path, 'r', encoding='utf-8') as f:
+    with open(path, 'r', encoding='utf-8') as f:
         result = json.load(f)
     return result
 
 def save_json(path, content):
-    with OpenFile(path, 'w', encoding='utf-8') as f:
+    with open(path, 'w', encoding='utf-8') as f:
         json.dump(content, f, ensure_ascii=False, indent=4)

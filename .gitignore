@@ -1,4 +1,6 @@
 *.log
 __pycache__
 .idea
+.venv
 bin/Utility/__pycache__
+bin/linebot-326308-90b5647ebead.json
